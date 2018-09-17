@@ -6,17 +6,17 @@
             <li id="msg-item-10000">
                 <div class="chat-headbox" align="center">
                     <a class="list-head" href="/user/80">
-                        <img alt="头像" src="$!{user.headUrl}" height="50px">
+                        <img alt="头像" src="$!{friend.headUrl}" height="50px">
                     </a>
-                    <br>火球鼠&nbsp;&nbsp;&nbsp;&nbsp;
+                    <br>$!{friend.name}
                 </div>
                 ##<!-- 这段是又加进来的 2018年9月17日 21:34:01 为了能显示回复页面 -->
 
                 <div class="tooltip fade right in">
                     <div class="tooltip-arrow"></div>
                     <div class="tooltip-inner letter-chat clearfix">
-                        <form action="/user/msgToId" method="post">
-                            <input type="hidden" name="toId" value="$!{msg.toId}">
+                        <form action="/user/msg/addMessage" method="post">
+                            <input type="hidden" name="name" value="$!{friend.name}">
                             <input type="hidden" name="conversationId" value="$!{msg.message.conversationId}">
                             <div class="letter-info">
                                 <a><input type="submit" value="私信回复"></a>

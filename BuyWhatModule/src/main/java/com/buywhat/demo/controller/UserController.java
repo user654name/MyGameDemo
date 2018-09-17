@@ -40,6 +40,7 @@ public class UserController {
 
         //当前登录的用户
         User userLogined = (User) session.getAttribute("user");
+
         if (userLogined != null) {//用户已登录
             //当前用户ID
             Integer loginedId = userLogined.getId();
