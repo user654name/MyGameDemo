@@ -28,11 +28,20 @@ public class MessageController {
     //    /msg/detail?conversationId=1_34
 
     @RequestMapping("/msg/detail")
-    public String showLetterDetail(String conversationId, Model model) {
+    public String showLetterDetail(String conversationId, Model model, HttpSession session) {
+        //简单的查看用户身份
+        User userLogin = (User) session.getAttribute("user");
 
-        List<MessageVo> messageVos = service.findMessageByConversationId(conversationId);
+        if (userLogin == null) {//未登录就回首页
+            return "redirect:/";
 
-        model.addAttribute("messages", messageVos);
+        } else {//已登录则继续
+
+
+            List<MessageVo> messageVos = service.findMessageByConversationId(conversationId);
+
+            model.addAttribute("messages", messageVos);
+        }
         return "letterDetail";
     }
 

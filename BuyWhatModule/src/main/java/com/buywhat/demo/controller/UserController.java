@@ -48,9 +48,15 @@ public class UserController {
                 return "mypersonal";
 
             } else {//访问的是别人的页面
-                model.addAttribute("otheruser", service.findAuthorById(Integer.parseInt(thisUserId)));
+                User thisUser = service.findAuthorById(Integer.parseInt(thisUserId));
+                if (thisUser != null) {//该用户是存在的
+                    model.addAttribute("otheruser", thisUser);
+                    return "personal";
 
-                return "personal";
+                } else {//用户不存在
+                    return "noSuchUser";
+                }
+
 
             }
 
