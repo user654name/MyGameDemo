@@ -1,0 +1,56 @@
+#parse("header.html")
+##我的个人主页
+
+<div id="main">
+    <div class="container">
+        <img src="http://ztqimage.oss-cn-shenzhen.aliyuncs.com/0b751286-96ad-46bf-834b-15f6932512daball.jpg?x-oss-process=image/resize,m_fixed,h_100,w_100"
+             alt="你好小朋友，想成为神奇宝贝大师嘛"
+             height="25px">
+        头像: <img alt="头像" src="$!{user.headUrl}" height="200px"/><br>
+
+
+        <form action="../../changeHeadUrl" method="post">
+            <img src="http://ztqimage.oss-cn-shenzhen.aliyuncs.com/0b751286-96ad-46bf-834b-15f6932512daball.jpg?x-oss-process=image/resize,m_fixed,h_100,w_100"
+                 alt="你好小朋友，想成为神奇宝贝大师嘛"
+                 height="25px">
+            <input type="hidden" name="userId" value="$!{user.id}">
+            出来吧<select name="newHeadUrl">
+            <option name="newHeadUrl"
+                    value="https://s1.52poke.wiki/wiki/thumb/a/a9/061Poliwhirl.png/300px-061Poliwhirl.png">
+                蚊香蛙
+            </option>
+            <option name="headUrl" value="https://s1.52poke.wiki/wiki/thumb/5/53/054Psyduck.png/300px-054Psyduck.png">
+                可达鸭
+            </option>
+            <option name="headUrl"
+                    value="https://s1.52poke.wiki/wiki/thumb/2/21/001Bulbasaur.png/300px-001Bulbasaur.png">
+                妙蛙种子
+            </option>
+            <option name="headUrl" value="https://s1.52poke.wiki/wiki/thumb/3/39/007Squirtle.png/300px-007Squirtle.png">
+                杰尼龟
+            </option>
+            <option name="headUrl"
+                    value="https://s1.52poke.wiki/wiki/thumb/6/6c/081Magnemite.png/300px-081Magnemite.png">
+                小磁怪
+            </option>
+            <option name="headUrl" value="https://s1.52poke.wiki/wiki/thumb/c/c6/094Gengar.png/300px-094Gengar.png">
+                耿鬼
+            </option>
+            <option name="headUrl" value="https://s1.52poke.wiki/wiki/thumb/f/fb/143Snorlax.png/300px-143Snorlax.png">
+                卡比兽
+            </option>
+        </select>
+            <input type="submit" value="就决定是你了！">
+        </form>
+        <img src="http://ztqimage.oss-cn-shenzhen.aliyuncs.com/0b751286-96ad-46bf-834b-15f6932512daball.jpg?x-oss-process=image/resize,m_fixed,h_100,w_100"
+             alt="你好小朋友，想成为神奇宝贝大师嘛"
+             height="25px">
+        用户名: $!{user.name} <br>
+
+        <!--<ul>
+       <li class="js-sendMsg"><a href="javascript:void(0);">发站内信</a></li>
+       </ul>-->
+    </div>
+</div>
+
+#parse("footer.html")
