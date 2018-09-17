@@ -3,6 +3,7 @@ package com.buywhat.demo.service;
 import com.buywhat.demo.bean.*;
 import com.buywhat.demo.bean.vo.CommentVo;
 import com.buywhat.demo.bean.vo.ConversationVo;
+import com.buywhat.demo.bean.vo.MessageVo;
 import com.buywhat.demo.bean.vo.Vo;
 
 import java.util.List;
@@ -105,4 +106,13 @@ public interface MyService {
      * @return
      */
     List<ConversationVo> getAllConversationVoByUserId(Integer id);
+
+    /**
+     * 将指定的一组对话的所有【消息】和【发送者信息】查找到
+     * 封装到Vo中返回给Controller
+     *
+     * @param conversationId 对话的ID
+     * @return Vo信息 这组对话的所有条信息
+     */
+    List<MessageVo> findMessageByConversationId(String conversationId);
 }

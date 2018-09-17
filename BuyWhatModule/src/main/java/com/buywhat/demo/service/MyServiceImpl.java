@@ -4,6 +4,7 @@ package com.buywhat.demo.service;
 import com.buywhat.demo.bean.*;
 import com.buywhat.demo.bean.vo.CommentVo;
 import com.buywhat.demo.bean.vo.ConversationVo;
+import com.buywhat.demo.bean.vo.MessageVo;
 import com.buywhat.demo.bean.vo.Vo;
 import com.buywhat.demo.dao.CommentMapper;
 import com.buywhat.demo.dao.MessageMapper;
@@ -294,6 +295,29 @@ public class MyServiceImpl implements MyService {
 
 
         return conversationVos;
+    }
+
+    @Override
+    public List<MessageVo> findMessageByConversationId(String conversationId) {
+
+        List<MessageVo> messageVos = new ArrayList<>();
+        List<Message> messages = messageMapper.selectMessageByConversationId(conversationId);
+
+        for (Message message : messages) {
+            MessageVo messageVo = new MessageVo();
+            Integer senderId = message.getFromId();//根据信息获得作者id
+            User sender = userMapper.selectByPrimaryKey(senderId);//将作者放入vo
+
+            messageVo.setMessage(message);//将信息放入vo
+            messageVo.setHeadUrl(sender.getHeadUrl());
+            messageVo.setName(sender.getName());
+            messageVo.setUserId(sender.getId());
+
+
+            messageVos.add(messageVo);//将这次循环的vo对象放入VOList
+        }
+
+        return messageVos;
     }
 
 

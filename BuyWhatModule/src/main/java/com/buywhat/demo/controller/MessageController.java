@@ -3,6 +3,7 @@ package com.buywhat.demo.controller;
 import com.buywhat.demo.bean.Message;
 import com.buywhat.demo.bean.User;
 import com.buywhat.demo.bean.vo.ConversationVo;
+import com.buywhat.demo.bean.vo.MessageVo;
 import com.buywhat.demo.service.MyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -24,6 +25,18 @@ public class MessageController {
     private MyService service;
 
 
+    //    /msg/detail?conversationId=1_34
+
+    @RequestMapping("/msg/detail")
+    public String showLetterDetail(String conversationId, Model model) {
+
+        List<MessageVo> messageVos = service.findMessageByConversationId(conversationId);
+
+        model.addAttribute("messages", messageVos);
+        return "letterDetail";
+    }
+
+
     /**
      * 点击【站内信】或者【发送站内信成功】
      * 跳转到查看站内信页面
@@ -41,7 +54,7 @@ public class MessageController {
             List<ConversationVo> conversationVoList = service.getAllConversationVoByUserId(user.getId());
 
             model.addAttribute("conversations", conversationVoList);
-        }else {
+        } else {
 
             return "redirect:/";
         }

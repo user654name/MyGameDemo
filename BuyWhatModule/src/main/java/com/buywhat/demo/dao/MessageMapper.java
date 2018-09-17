@@ -53,5 +53,11 @@ public interface MessageMapper {
     Integer countMessageUnreadByConversationId(String conversationId);
 
 
-
+    /**
+     * 查找这组【对话】的所有消息
+     *
+     * @param conversationId 查找的一句 【对话id】
+     * @return 【所有Message消息】
+     */
+    List<Message> selectMessageByConversationId(String conversationId);
 }
