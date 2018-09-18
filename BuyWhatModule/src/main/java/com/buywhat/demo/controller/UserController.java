@@ -2,6 +2,7 @@ package com.buywhat.demo.controller;
 
 import com.buywhat.demo.bean.User;
 import com.buywhat.demo.service.MyServiceImpl;
+import com.buywhat.utils.CookieHandler;
 import com.sun.deploy.net.HttpResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
@@ -70,6 +72,14 @@ public class UserController {
     }
 
 
+    /**
+     * 修改头像链接
+     *
+     * @param newHeadUrl
+     * @param userId
+     * @param session
+     * @return
+     */
     @RequestMapping("changeHeadUrl")
     public String changeHeadImg(String newHeadUrl, Integer userId, HttpSession session) {
         System.out.println("newHeadUrl=" + newHeadUrl);
@@ -101,7 +111,7 @@ public class UserController {
      */
     @RequestMapping("login")
     @ResponseBody
-    public Map loginModel(String username, String password, HttpSession session, String rember) {
+    public Map loginModel(HttpServletResponse response, String username, String password, HttpSession session, String rember) {
 
         Map map = new HashMap();
 
@@ -116,16 +126,17 @@ public class UserController {
             //设置session
             session.setAttribute("user", userSelect);
 
+            //设置Cookie 2018年9月18日 09:17:51
+            CookieHandler cookieHandler = new CookieHandler();
+            cookieHandler.setCookie(response, "autoLoginKey",
+                    userSelect.getId()+"");
+
 
         } else {
             map.put("code", 1);//代表登录失败
             map.put("msgname", "用户名不存在");
             map.put("msgpwd", "或者密码错误，请检查后重新登录");
         }
-
-
-//        Cookie cookie = new Cookie("name", "");
-//        Cookie cookie1 = new Cookie("PASSWORD", "");
 
 
         return map;
