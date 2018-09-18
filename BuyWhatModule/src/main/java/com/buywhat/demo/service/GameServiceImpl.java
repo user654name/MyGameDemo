@@ -95,7 +95,6 @@ public class GameServiceImpl implements GameService {
                     break;
                 case "F":
 
-
                     if (comType.equals("G")) {
                         //玩家【F火】电脑【G草】→【玩家赢】
                         winner = 1;
@@ -132,6 +131,7 @@ public class GameServiceImpl implements GameService {
                 default:
             }
 
+
             if (winner == 1) {//玩家赢
                 //计算伤害
                 comHurt = playerAtt * -2;//电脑双倍伤害
@@ -139,16 +139,16 @@ public class GameServiceImpl implements GameService {
 
             } else if (winner == -1) {//电脑赢
                 //计算伤害
-                comHurt = 0;//电脑双倍伤害
-                playerHurt = comAtt * -2;//玩家不受伤
+                comHurt = 0;//电脑不受伤
+                playerHurt = comAtt * -2;//玩家双倍伤害
             } else {
                 System.out.println("不可能走到这里 严重错误!—— winner = " + winner);
             }
 
         }
         //设置战斗信息
-        battleMsg = battleMsg + "玩家的【" + playerPm.getName() + "】对电脑的【" + comPm.getName() + "】造成【" + comHurt * -2 + "】点伤害\n" +
-                "电脑的【" + comPm.getName() + "】对玩家的【" + playerPm.getName() + "】造成【" + playerHurt * -2 + "】点伤害";
+        battleMsg = battleMsg + "玩家的【" + playerPm.getName() + "】对电脑的【" + comPm.getName() + "】造成【" + comHurt * -1 + "】点伤害\n" +
+                "电脑的【" + comPm.getName() + "】对玩家的【" + playerPm.getName() + "】造成【" + playerHurt * -1 + "】点伤害";
 
 
         map.put("comHurt", comHurt);

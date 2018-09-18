@@ -184,15 +184,17 @@ public class TeamFightController {
         //初始化 创建敌我各三只PM信息
         Map pokeMap = service.findPmBeforeGame();
 
+
+
         //初始化我方三只
-        model.addAttribute("p1", pokeMap.get(battleInfo.getP1Id()));
-        model.addAttribute("p2", pokeMap.get(battleInfo.getP2Id()));
-        model.addAttribute("p3", pokeMap.get(battleInfo.getP3Id()));
+        model.addAttribute("p1", pokemon2Mapper.selectByPrimaryKey(battleInfo.getP1Id()));
+        model.addAttribute("p2", pokemon2Mapper.selectByPrimaryKey(battleInfo.getP2Id()));
+        model.addAttribute("p3", pokemon2Mapper.selectByPrimaryKey(battleInfo.getP3Id()));
 
         //初始化敌方三只
-        model.addAttribute("p4", pokeMap.get(battleInfo.getP4Id()));
-        model.addAttribute("p5", pokeMap.get(battleInfo.getP5Id()));
-        model.addAttribute("p6", pokeMap.get(battleInfo.getP6Id()));
+        model.addAttribute("p4", pokemon2Mapper.selectByPrimaryKey(battleInfo.getP4Id()));
+        model.addAttribute("p5", pokemon2Mapper.selectByPrimaryKey(battleInfo.getP5Id()));
+        model.addAttribute("p6", pokemon2Mapper.selectByPrimaryKey(battleInfo.getP6Id()));
 
 
         //将HP加入
