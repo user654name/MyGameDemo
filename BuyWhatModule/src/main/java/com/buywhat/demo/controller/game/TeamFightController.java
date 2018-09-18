@@ -33,21 +33,22 @@ public class TeamFightController {
         Map pokeMap = service.findPmBeforeGame();
 
         //初始化我方三只
-        model.addAttribute("p1",pokeMap.get(1));
-        model.addAttribute("p2",pokeMap.get(4));
-        model.addAttribute("p3",pokeMap.get(7));
+        model.addAttribute("p1", pokeMap.get(1));
+        model.addAttribute("p2", pokeMap.get(4));
+        model.addAttribute("p3", pokeMap.get(7));
 
         //初始化敌方三只
-        model.addAttribute("p4",pokeMap.get(1));
-        model.addAttribute("p5",pokeMap.get(4));
-        model.addAttribute("p6",pokeMap.get(7));
+        model.addAttribute("p4", pokeMap.get(1));
+        model.addAttribute("p5", pokeMap.get(4));
+        model.addAttribute("p6", pokeMap.get(7));
 
         return "teamFight";
     }
 
-    @RequestMapping("teamfightgogogo")
-    public String doTeamFight(Model model, HttpSession session) {
 
+    @RequestMapping("teamfightgogogo")
+    public String doTeamFight(Model model, HttpSession session, Integer chooseId) {
+        //chooseId玩家选择出战的那只ID
 
         return "teamFight";
     }

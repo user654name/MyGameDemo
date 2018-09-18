@@ -8,7 +8,6 @@
 
         #####HP信息
 
-
         <div id="hp">
             <h2>HP：$!{player1Hp}/100 <br>
                 <progress value="$!{player1Hp}" max="100"></progress>
@@ -19,14 +18,19 @@
         ########草系
         <div>
             <div class="div" id="my-pokemon-1">
+
+                ####图片
                 <div class="div1" id="my-pokemon-1-img">
                     <img src="$!{p1.url}"
                          alt="草系"
                          height="160px"></div>
                 <div class="div2" style="float: right">
-                    <br><br><br>
-                    <input type="radio" value="3123" name="p1" style="width: 30px;height: 30px">
-                    <font size="5">[我方]$!{p1.name}</font>
+                    <input type="radio" value="$!{p1.id}" name="chooseId" style="width: 30px;height: 30px" checked>
+
+                    ####详细信息
+                    <font size="5">[我方]$!{p1.name}
+                        <br>&#160; &#160; &#160; 攻击力:$!{p1.att}
+                    </font>
                 </div>
             </div>
         </div>
@@ -34,14 +38,20 @@
         ########火系
         <div>
             <div class="div" id="my-pokemon-2">
+
+                ####图片
                 <div class="div1" id="my-pokemon-2-img">
                     <img src="$!{p2.url}"
                          alt="火系"
                          height="160px"></div>
-                <div class="div2" style="float: right"><br><br><br>
+                <div class="div2" style="float: right">
+                    <input type="radio" value="$!{p2.id}" name="chooseId" style="width: 30px;height: 30px">
 
-                    <input type="radio" value="3123" name="p2" style="width: 30px;height: 30px">
-                    <font size="5">[我方]$!{p2.name}</font>
+                    ####详细信息
+
+                    <font size="5">[我方]$!{p2.name}
+                        <br>&#160; &#160; &#160; 攻击力:$!{p2.att}
+                    </font>
                 </div>
 
             </div>
@@ -53,13 +63,19 @@
 
         <div>
             <div class="div" id="my-pokemon-3">
+                ####图片
                 <div class="div1" id="my-pokemon-3-img">
                     <img src="$!{p3.url}"
                          alt="水系"
                          height="160px"></div>
-                <div class="div2" style="float: right"><br><br><br>
-                    <input type="radio" value="3123" name="p2" style="width: 30px;height: 30px">
-                    <font size="5">[我方]$!{p3.name}</font>
+                <div class="div2" style="float: right">
+                    <input type="radio" value="$!{p3.id}" name="chooseId" style="width: 30px;height: 30px">
+
+                    ####详细信息
+
+                    <font size="5">[我方]$!{p3.name}
+                        <br>&#160; &#160; &#160; 攻击力:$!{p3.att}
+                    </font>
                 </div>
 
             </div>
@@ -92,34 +108,74 @@
                 <progress value="$!{player2Hp}" max="100"></progress>
             </h2>
         </div>
+        ########草系
         <div>
-            <div><img src="$!{p4.url}"
-                      alt="对方草系"
-                      height="160px">
-            </div>
-            <div>
-                ## <input type="radio" value="3123" name="p1">##$!{宠物4名字}
+            <div class="div" id="my-pokemon-4">
+
+                <div class="div2" style="float: left">
+
+
+                    ####详细信息
+
+                    <font size="5">[敌方]$!{p4.name}
+                        <br>&#160; &#160; &#160; 攻击力:$!{p4.att}
+                    </font>
+                </div>
+
+                ####图片
+                <div class="div1" id="my-pokemon-4-img">
+                    <img src="$!{p4.url}"
+                         alt="草系"
+                         height="160px"></div>
+
             </div>
         </div>
 
 
+        ########火系
         <div>
-            <div><img src="$!{p5.url}" alt="对方火系"
-                      height="160px">
-            </div>
-            <div>
-                ## <input type="radio" value="3123" name="p1">##$!{宠物4名字}
-            </div>
+            <div class="div" id="my-pokemon-5">
 
+                <div class="div2" style="float: left">
+
+
+                    ####详细信息
+
+                    <font size="5">[敌方]$!{p5.name}
+                        <br>&#160; &#160; &#160; 攻击力:$!{p5.att}
+                    </font>
+                </div>
+
+                ####图片
+                <div class="div1" id="my-pokemon-5-img">
+                    <img src="$!{p5.url}"
+                         alt="火系"
+                         height="160px"></div>
+
+            </div>
         </div>
 
+
+        ########水系
         <div>
-            <div><img src="$!{p6.url}"
-                      alt="对方水系"
-                      height="160px">
-            </div>
-            <div>
-                ##<input type="radio" value="3123" name="p1">##$!{宠物6名字}
+            <div class="div" id="my-pokemon-6">
+
+                <div class="div2" style="float: left">
+
+
+                    ####详细信息
+
+                    <font size="5">[敌方]$!{p6.name}
+                        <br>&#160; &#160; &#160; 攻击力:$!{p6.att}
+                    </font>
+                </div>
+
+                ####图片
+                <div class="div1" id="my-pokemon-6-img">
+                    <img src="$!{p6.url}"
+                         alt="火系"
+                         height="160px"></div>
+
             </div>
         </div>
     </div>
