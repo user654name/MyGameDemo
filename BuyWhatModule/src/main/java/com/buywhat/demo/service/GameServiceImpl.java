@@ -50,18 +50,18 @@ public class GameServiceImpl implements GameService {
 
         //电脑和玩家各自选择的PM
         Pokemon2 comPm = pokemon2Mapper.selectByPrimaryKey(comPmId);
-        Pokemon2 playPm = pokemon2Mapper.selectByPrimaryKey(playerPmId);
+        Pokemon2 playerPm = pokemon2Mapper.selectByPrimaryKey(playerPmId);
 
         //战斗信息
         String battleMsg = "";
 
         //PM各自攻击力
-        Integer playerAtt = Integer.parseInt(playPm.getAtt());//玩家的攻击力
+        Integer playerAtt = Integer.parseInt(playerPm.getAtt());//玩家的攻击力
         Integer comAtt = Integer.parseInt(comPm.getAtt());//电脑的攻击力
 
         //获取PM属性
-        String playerType = comPm.getType();
-        String comType = playPm.getType();
+        String playerType = playerPm.getType();
+        String comType = comPm.getType();
 
         //各自承受的伤害
         Integer comHurt = 0;
@@ -147,8 +147,8 @@ public class GameServiceImpl implements GameService {
 
         }
         //设置战斗信息
-        battleMsg = battleMsg + "玩家的" + playPm.getName() + "对电脑的" + comPm.getName() + "造成" + comHurt * -2 + "点伤害\n" +
-                "电脑的" + comPm.getName() + "对玩家的" + playPm.getName() + "造成" + playerHurt * -2 + "点伤害";
+        battleMsg = battleMsg + "玩家的【" + playerPm.getName() + "】对电脑的【" + comPm.getName() + "】造成【" + comHurt * -2 + "】点伤害\n" +
+                "电脑的【" + comPm.getName() + "】对玩家的【" + playerPm.getName() + "】造成【" + playerHurt * -2 + "】点伤害";
 
 
         map.put("comHurt", comHurt);

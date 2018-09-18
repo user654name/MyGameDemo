@@ -170,6 +170,10 @@ public class TeamFightController {
             }
 
 
+        } else if (winner == 0) {
+            System.out.println("平局或者均势局");
+        }else {
+            System.out.println("不可能走到这里！！读取winner信息出错！！");
         }
 
 
