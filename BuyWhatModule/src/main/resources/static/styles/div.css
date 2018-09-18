@@ -1,0 +1,16 @@
+.div {
+
+    float: left;
+
+}
+
+.div .div1 {
+    float: left;
+
+}
+
+.div.div2 {
+    float: left;
+
+}
+

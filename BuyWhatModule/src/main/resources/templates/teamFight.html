@@ -5,40 +5,70 @@
 
 <form action="/teamfightgogogo">
     <div align="left" style="position: absolute ;top: 10%;left: 20px">
+
+        #####HP信息
+
+
         <div id="hp">
             <h2>HP：$!{player1Hp}/100 <br>
                 <progress value="$!{player1Hp}" max="100"></progress>
             </h2>
         </div>
-        <div id="my-pokemon-1">
-            <div id="my-pokemon-1-img">
-                <img src="$!{mypoke1.url}"
-                     alt="草系"
-                     height="200px"></div>
-            <div id="my-pokemon-1-name">
-                <input type="radio" value="3123" name="p1">##$!{宠物1名字}
+
+
+        ########草系
+        <div>
+            <div class="div" id="my-pokemon-1">
+                <div class="div1" id="my-pokemon-1-img">
+                    <img src="$!{p1.url}"
+                         alt="草系"
+                         height="160px"></div>
+                <div class="div2" style="float: right">
+                    <br><br><br>
+                    <input type="radio" value="3123" name="p1" style="width: 30px;height: 30px">
+                    <font size="5">[我方]$!{p1.name}</font>
+                </div>
             </div>
         </div>
 
-        <div id="my-pokemon-2">
-            <div id="my-pokemon-2-img">
-                <img src="$!{mypoke2.url}"
-                     alt="火系"
-                     height="200px">
-            </div>
-            <div id="my-pokemon-2-name"><input type="radio" value="22133" name="p2">##$!{宠物2名字}
-            </div>
-        </div>
-        <div id="my-pokemon-3">
-            <div id="my-pokemon-3-img"><img src="$!{mypoke3.url}"
-                                            alt="水系"
-                                            height="200px">
-            </div>
-            <div id="my-pokemon-3-name"><input type="radio" value="23213" name="p3">##$!{宠物3名字}
+        ########火系
+        <div>
+            <div class="div" id="my-pokemon-2">
+                <div class="div1" id="my-pokemon-2-img">
+                    <img src="$!{p2.url}"
+                         alt="火系"
+                         height="160px"></div>
+                <div class="div2" style="float: right"><br><br><br>
+
+                    <input type="radio" value="3123" name="p2" style="width: 30px;height: 30px">
+                    <font size="5">[我方]$!{p2.name}</font>
+                </div>
+
             </div>
         </div>
+
+
+        ########水系
+
+
+        <div>
+            <div class="div" id="my-pokemon-3">
+                <div class="div1" id="my-pokemon-3-img">
+                    <img src="$!{p3.url}"
+                         alt="水系"
+                         height="160px"></div>
+                <div class="div2" style="float: right"><br><br><br>
+                    <input type="radio" value="3123" name="p2" style="width: 30px;height: 30px">
+                    <font size="5">[我方]$!{p3.name}</font>
+                </div>
+
+            </div>
+        </div>
+
+
     </div>
 
+    </div>
 
     #########战斗信息
 
@@ -63,9 +93,9 @@
             </h2>
         </div>
         <div>
-            <div><img src="https://s1.52poke.wiki/wiki/thumb/d/d6/052Meowth.png/300px-052Meowth.png"
+            <div><img src="$!{p4.url}"
                       alt="对方草系"
-                      height="200px">
+                      height="160px">
             </div>
             <div>
                 ## <input type="radio" value="3123" name="p1">##$!{宠物4名字}
@@ -74,9 +104,8 @@
 
 
         <div>
-            <div><img src="https://s1.52poke.wiki/wiki/thumb/d/d6/052Meowth.png/300px-052Meowth.png"
-                      alt="对方火系"
-                      height="200px">
+            <div><img src="$!{p5.url}" alt="对方火系"
+                      height="160px">
             </div>
             <div>
                 ## <input type="radio" value="3123" name="p1">##$!{宠物4名字}
@@ -85,10 +114,9 @@
         </div>
 
         <div>
-            <div><img
-                    src="https://s1.52poke.wiki/wiki/thumb/d/d6/052Meowth.png/300px-052Meowth.png"
-                    alt="对方水系"
-                    height="200px">
+            <div><img src="$!{p6.url}"
+                      alt="对方水系"
+                      height="160px">
             </div>
             <div>
                 ##<input type="radio" value="3123" name="p1">##$!{宠物6名字}
