@@ -155,6 +155,9 @@ public class GameServiceImpl implements GameService {
         map.put("playerHurt", playerHurt);
         map.put("battleMsg", battleMsg);
         map.put("winner", winner);
+
+
+        System.out.println("map = " + map);
         return map;
     }
 

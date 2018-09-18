@@ -104,8 +104,8 @@ public class TeamFightController {
          *
          */
         //【首先】计算战斗后剩余生命值
-        player1Hp = battleInfo.getPlayer1Hp() - playerHurt;
-        player2Hp = battleInfo.getPlayer2Hp() - comHurt;
+        player1Hp = battleInfo.getPlayer1Hp() + playerHurt;
+        player2Hp = battleInfo.getPlayer2Hp() + comHurt;
         if (player1Hp <= 0 && player2Hp > 0) {//玩家挂了,电脑活着
             model.addAttribute("gameover", "你挂了,充钱立即复活");
             return "结果页面";
@@ -196,8 +196,9 @@ public class TeamFightController {
         model.addAttribute("player2Hp", player2Hp);
 
         //放入战斗详情信息
-        model.addAttribute("battleMsg", battleMsg);
+        model.addAttribute("BattleMSG", battleMsg);
 
+        System.out.println(battleMsg);
 
         return "teamFight";
     }
