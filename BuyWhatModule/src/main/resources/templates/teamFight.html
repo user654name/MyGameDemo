@@ -88,13 +88,24 @@
 
     #########战斗信息
 
+    ##### 表单隐藏信息
+    <input type="hidden" name="p1Id" value="$!{p1.id}">
+    <input type="hidden" name="p2Id" value="$!{p2.id}">
+    <input type="hidden" name="p3Id" value="$!{p3.id}">
+    <input type="hidden" name="p4Id" value="$!{p4.id}">
+    <input type="hidden" name="p5Id" value="$!{p5.id}">
+    <input type="hidden" name="p6Id" value="$!{p6.id}">
+    <input type="hidden" name="player1Hp" value="$!{player1Hp}">
+    <input type="hidden" name="player2Hp" value="$!{player2Hp}">
+
+
     <div style="position: absolute ;top: 30%;left: 38%">
 
         <input type="hidden" name="leftHit" value="25">
         <input type="hidden" name="rightHit" value="25">
         <button onsubmit="true" style="height: 100px;width: 200px"><h3>就决定是你了</h3></button>
         <br>
-        对战信息 <br>
+        <h3>对战信息:</h3>
         <textarea>${BattleMSG}</textarea>
     </div>
 
