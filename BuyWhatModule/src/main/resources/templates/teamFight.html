@@ -1,0 +1,101 @@
+#parse("header.html")
+
+
+#########我方信息
+
+<form action="/teamfightgogogo">
+    <div align="left" style="position: absolute ;top: 10%;left: 20px">
+        <div id="hp">
+            <h2>HP：$!{player1Hp}/100 <br>
+                <progress value="$!{player1Hp}" max="100"></progress>
+            </h2>
+        </div>
+        <div id="my-pokemon-1">
+            <div id="my-pokemon-1-img">
+                <img src="$!{mypoke1.url}"
+                     alt="草系"
+                     height="200px"></div>
+            <div id="my-pokemon-1-name">
+                <input type="radio" value="3123" name="p1">##$!{宠物1名字}
+            </div>
+        </div>
+
+        <div id="my-pokemon-2">
+            <div id="my-pokemon-2-img">
+                <img src="$!{mypoke2.url}"
+                     alt="火系"
+                     height="200px">
+            </div>
+            <div id="my-pokemon-2-name"><input type="radio" value="22133" name="p2">##$!{宠物2名字}
+            </div>
+        </div>
+        <div id="my-pokemon-3">
+            <div id="my-pokemon-3-img"><img src="$!{mypoke3.url}"
+                                            alt="水系"
+                                            height="200px">
+            </div>
+            <div id="my-pokemon-3-name"><input type="radio" value="23213" name="p3">##$!{宠物3名字}
+            </div>
+        </div>
+    </div>
+
+
+    #########战斗信息
+
+    <div style="position: absolute ;top: 30%;left: 38%">
+
+        <input type="hidden" name="leftHit" value="25">
+        <input type="hidden" name="rightHit" value="25">
+        <button onsubmit="true" style="height: 100px;width: 200px"><h3>就决定是你了</h3></button>
+        <br>
+        对战信息 <br>
+        <textarea>${BattleMSG}</textarea>
+    </div>
+
+
+    #########对方模块
+
+
+    <div align="right" style="position: absolute ;top: 10%;right: 20px">
+        <div>
+            <h2>HP：$!{player2Hp}/100 <br>
+                <progress value="$!{player2Hp}" max="100"></progress>
+            </h2>
+        </div>
+        <div>
+            <div><img src="https://s1.52poke.wiki/wiki/thumb/d/d6/052Meowth.png/300px-052Meowth.png"
+                      alt="对方草系"
+                      height="200px">
+            </div>
+            <div>
+                ## <input type="radio" value="3123" name="p1">##$!{宠物4名字}
+            </div>
+        </div>
+
+
+        <div>
+            <div><img src="https://s1.52poke.wiki/wiki/thumb/d/d6/052Meowth.png/300px-052Meowth.png"
+                      alt="对方火系"
+                      height="200px">
+            </div>
+            <div>
+                ## <input type="radio" value="3123" name="p1">##$!{宠物4名字}
+            </div>
+
+        </div>
+
+        <div>
+            <div><img
+                    src="https://s1.52poke.wiki/wiki/thumb/d/d6/052Meowth.png/300px-052Meowth.png"
+                    alt="对方水系"
+                    height="200px">
+            </div>
+            <div>
+                ##<input type="radio" value="3123" name="p1">##$!{宠物6名字}
+            </div>
+        </div>
+    </div>
+</form>
+
+
+#parse("footer.html")
