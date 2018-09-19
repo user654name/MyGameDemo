@@ -91,8 +91,8 @@ public class NewsController {
             String endpoint = "http://oss-cn-shenzhen.aliyuncs.com";
 
             // 阿里云主账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM账号进行API访问或日常运维，请登录 https://ram.console.aliyun.com 创建RAM账号。
-            String accessKeyId = "LTAIXdEGhPLjsbso";
-            String accessKeySecret = "S5kLD36DxAsADw512si7QeWCNXw0QO";
+            String accessKeyId = "LTAIXdE1233GhP312531Ljsbso";
+            String accessKeySecret = "S5kLD361D12331AsADw53123112si7QeWCNXw0QO";
             String bucketName = "ztqimage";
             String objectName = UUID.randomUUID().randomUUID().toString()
                     + file.getOriginalFilename();
