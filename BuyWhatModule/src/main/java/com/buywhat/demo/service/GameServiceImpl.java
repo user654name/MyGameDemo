@@ -1,6 +1,6 @@
 package com.buywhat.demo.service;
 
-import com.buywhat.demo.bean.Game.Pokemon2;
+import com.buywhat.demo.bean.game.Pokemon2;
 import com.buywhat.demo.dao.Pokemon2Mapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

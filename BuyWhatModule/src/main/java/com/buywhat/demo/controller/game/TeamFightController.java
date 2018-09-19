@@ -1,7 +1,6 @@
 package com.buywhat.demo.controller.game;
 
-import com.buywhat.demo.bean.Game.BattleInfo;
-import com.buywhat.demo.bean.Game.Pokemon2;
+import com.buywhat.demo.bean.game.BattleInfo;
 import com.buywhat.demo.dao.Pokemon2Mapper;
 import com.buywhat.demo.service.GameServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +9,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpSession;
-import java.util.Date;
 import java.util.Map;
 
 @Controller

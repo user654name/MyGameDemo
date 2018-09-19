@@ -1,4 +1,4 @@
-package com.buywhat.demo.bean.Game;
+package com.buywhat.demo.bean.game;
 
 public class Pokemon {
     private Integer pid;

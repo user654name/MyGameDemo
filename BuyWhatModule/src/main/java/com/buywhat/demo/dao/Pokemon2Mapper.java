@@ -1,6 +1,6 @@
 package com.buywhat.demo.dao;
 
-import com.buywhat.demo.bean.Game.Pokemon2;
+import com.buywhat.demo.bean.game.Pokemon2;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 

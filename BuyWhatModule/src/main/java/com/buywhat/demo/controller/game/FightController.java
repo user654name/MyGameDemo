@@ -1,6 +1,6 @@
 package com.buywhat.demo.controller.game;
 
-import com.buywhat.demo.bean.Game.Pokemon;
+import com.buywhat.demo.bean.game.Pokemon;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

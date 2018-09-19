@@ -1,6 +1,6 @@
 package com.buywhat.demo;
 
-import com.buywhat.demo.bean.Game.Pokemon2;
+import com.buywhat.demo.bean.game.Pokemon2;
 import com.buywhat.demo.dao.Pokemon2Mapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
