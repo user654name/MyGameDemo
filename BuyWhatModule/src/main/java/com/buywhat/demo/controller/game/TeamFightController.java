@@ -108,15 +108,15 @@ public class TeamFightController {
         player2Hp = battleInfo.getPlayer2Hp() + comHurt;
         if (player1Hp <= 0 && player2Hp > 0) {//玩家挂了,电脑活着
             model.addAttribute("gameover", "你挂了,充钱立即复活");
-            return "结果页面";
+            return "gameover";
 
         } else if (player2Hp <= 0 && player1Hp > 0) {//你活着,但是电脑挂了
             model.addAttribute("gameover", "你赢了,嘻嘻");
-            return "结果页面";
+            return "gameover";
 
         } else if (player1Hp <= 0 && player2Hp <= 0) {
             model.addAttribute("gameover", "哇,你们一起挂掉了,平局很少见的哦！");
-            return "结果页面";
+            return "gameover";
 
         }
 
@@ -172,7 +172,7 @@ public class TeamFightController {
 
         } else if (winner == 0) {
             System.out.println("平局或者均势局");
-        }else {
+        } else {
             System.out.println("不可能走到这里！！读取winner信息出错！！");
         }
 
@@ -183,7 +183,6 @@ public class TeamFightController {
 
         //初始化 创建敌我各三只PM信息
         Map pokeMap = service.findPmBeforeGame();
-
 
 
         //初始化我方三只
