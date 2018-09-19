@@ -12,7 +12,6 @@ import javax.servlet.http.HttpSession;
 import java.util.List;
 
 
-//@RestController
 @Controller
 public class IndexController {
 
@@ -44,9 +43,6 @@ public class IndexController {
 
         return "home";
     }
-
-
-
 
 
 }

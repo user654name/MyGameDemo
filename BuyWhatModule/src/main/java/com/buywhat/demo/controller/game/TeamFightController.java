@@ -37,14 +37,14 @@ public class TeamFightController {
         Map pokeMap = service.findPmBeforeGame();
 
         //初始化我方三只
-        model.addAttribute("p1", pokeMap.get(1));
-        model.addAttribute("p2", pokeMap.get(4));
-        model.addAttribute("p3", pokeMap.get(7));
+        model.addAttribute("p1", pokemon2Mapper.selectByPrimaryKey(1));
+        model.addAttribute("p2", pokemon2Mapper.selectByPrimaryKey(4));
+        model.addAttribute("p3", pokemon2Mapper.selectByPrimaryKey(7));
 
         //初始化敌方三只
-        model.addAttribute("p4", pokeMap.get(1));
-        model.addAttribute("p5", pokeMap.get(4));
-        model.addAttribute("p6", pokeMap.get(7));
+        model.addAttribute("p4", pokemon2Mapper.selectByPrimaryKey(1));
+        model.addAttribute("p5", pokemon2Mapper.selectByPrimaryKey(4));
+        model.addAttribute("p6", pokemon2Mapper.selectByPrimaryKey(8));
 
         return "teamFight";
     }
