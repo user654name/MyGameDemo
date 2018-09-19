@@ -1,0 +1,10 @@
+
+#if($user)
+##什么都没显示
+#else
+<form id="login" action="/login" method="post">
+    用户名: <input form="login" type="text" name="username">
+    密码:<input form="login" type="password" name="password">
+    <button form="login" type="submit">登录</button>
+</form>
+#end <br>

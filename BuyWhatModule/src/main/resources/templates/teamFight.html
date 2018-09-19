@@ -1,10 +1,11 @@
-#parse("header.html")
 
+
+#parse("header.html")
+#parse("logintop.html")
 <script>
 
     function choose1() {
         document.getElementById("radio1").checked = true
-
     }
 
     function choose2() {
@@ -16,12 +17,28 @@
     }
 
 
+
+
+
+    $.ajax({
+        type: "post",
+        url: "/login",
+        dataType: "json",
+        data: {},
+        cache: false,
+        success: function (data) {
+            // 请求成功
+        },
+        error: function (err) {
+            // 请求失败
+        }
+    });
 </script>
 
 #########我方信息
 <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537329231869&di=183341a602429bafc5bfc40c5f3ce846&imgtype=0&src=http%3A%2F%2Fpic.k73.com%2Fup%2Fsoft%2F2016%2F0608%2F142454_28755504.jpg"
      style="z-index: -2;width: 100%" alt="back">
-<form action="/teamfightgogogo" method="post" >
+<form id="fight" action="/teamfightgogogo" method="post">
     <div align="left" style="position: absolute ;top: 10%;left: 20px">
 
         #####HP信息
@@ -43,7 +60,8 @@
                          alt="草系"
                          height="160px"></div>
                 <div class="div2" style="float: right">
-                    <input type="radio" id="radio1" value="$!{p1.id}" name="chooseId" style="width: 30px;height: 30px">
+                    <input form="fight" type="radio" id="radio1" value="$!{p1.id}" name="chooseId"
+                           style="width: 30px;height: 30px">
 
                     ####详细信息
                     <font size="5">[我方]$!{p1.name}
@@ -63,7 +81,8 @@
                          alt="火系"
                          height="160px"></div>
                 <div class="div2" style="float: right">
-                    <input type="radio" id="radio2" value="$!{p2.id}" name="chooseId" style="width: 30px;height: 30px">
+                    <input form="fight" type="radio" id="radio2" value="$!{p2.id}" name="chooseId"
+                           style="width: 30px;height: 30px">
 
                     ####详细信息
 
@@ -87,9 +106,11 @@
                          alt="水系"
                          height="160px"></div>
                 <div class="div2" style="float: right">
-                    <input type="radio" id="radio3" value="$!{p3.id}" name="chooseId" style="width: 30px;height: 30px">
+                    <input form="fight" type="radio" id="radio3" value="$!{p3.id}" name="chooseId"
+                           style="width: 30px;height: 30px">
 
                     ####详细信息
+
 
                     <font size="5">[我方]$!{p3.name}
                         <br>&#160; &#160; &#160; 攻击力:$!{p3.att}
@@ -99,40 +120,28 @@
             </div>
         </div>
 
-
+想1
     </div>
 
     </div>
 
     #########战斗信息
 
-    ##### 表单隐藏信息
-    <input type="hidden" name="p1Id" value="$!{p1.id}">
-    <input type="hidden" name="p2Id" value="$!{p2.id}">
-    <input type="hidden" name="p3Id" value="$!{p3.id}">
-    <input type="hidden" name="p4Id" value="$!{p4.id}">
-    <input type="hidden" name="p5Id" value="$!{p5.id}">
-    <input type="hidden" name="p6Id" value="$!{p6.id}">
-    <input type="hidden" name="player1Hp" value="$!{player1Hp}">
-    <input type="hidden" name="player2Hp" value="$!{player2Hp}">
-    <input type="hidden" name="battleMsg" value="$!{battleMsg}">
-
 
     <div style="position: absolute ;top: 30%;left: 35%">
 
 
+        ##玩家信息
 
-        <input type="hidden" name="leftHit" value="25">##伤害信息
-        <input type="hidden" name="rightHit" value="25">##伤害信息
-        <button style="height: 40px;width: 130px" onclick="choose1()">草系出战</button>
-        <button style="height: 40px;width: 130px" onclick="choose2()">火系出战</button>
-        <button style="height: 40px;width: 130px" onclick="choose3()">水系出战</button>
+        <button form="fight" style="height: 40px;width: 130px" onclick="choose1()">草系出战</button>
+        <button form="fight" style="height: 40px;width: 130px" onclick="choose2()">火系出战</button>
+        <button form="fight" style="height: 40px;width: 130px" onclick="choose3()">水系出战</button>
 
 
-      ##  <button onsubmit="true" style="height: 100px;width: 200px"><h3>就决定是你了</h3></button>
+        ##
         <br>
         <h3>对战信息:</h3>
-        <textarea readonly style="height: 300px;width: 400px">$!{battleMsg}</textarea>
+        <textarea form="fight" readonly style="height: 300px;width: 400px">$!{battleMsg}</textarea>
     </div>
 
 
@@ -216,6 +225,22 @@
             </div>
         </div>
     </div>
+
+
+    ##### 表单隐藏信息
+    ##6个位置ID信息
+    <input form="fight" type="hidden" name="p1Id" value="$!{p1.id}">
+    <input form="fight" type="hidden" name="p2Id" value="$!{p2.id}">
+    <input form="fight" type="hidden" name="p3Id" value="$!{p3.id}">
+    <input form="fight" type="hidden" name="p4Id" value="$!{p4.id}">
+    <input form="fight" type="hidden" name="p5Id" value="$!{p5.id}">
+    <input form="fight" type="hidden" name="p6Id" value="$!{p6.id}">
+    <input form="fight" type="hidden" name="player1Hp" value="$!{player1Hp}">
+    <input form="fight" type="hidden" name="player2Hp" value="$!{player2Hp}">
+    <input form="fight" type="hidden" name="battleMsg" value="$!{battleMsg}">
+    <input form="fight" type="hidden" name="leftHit" value="25">##伤害信息
+    <input form="fight" type="hidden" name="rightHit" value="25">##伤害信息
+
 </form>
 
 #parse("footer.html")

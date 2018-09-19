@@ -28,6 +28,9 @@ public class NewsController {
     private MyService service;
 
 
+
+
+
     @RequestMapping("news/{newsId}")
     public String showNews(@PathVariable Integer newsId, Model model,HttpSession session) {
 
@@ -62,7 +65,7 @@ public class NewsController {
             newNews.setLink(link);//链接
             newNews.setUserId(author.getId());//设置作者信息
             newNews.setCreatedDate(new Date());//当前时间
-
+            newNews.setCommentCount(0);//设置评论数目为0
             Integer num = service.addNews(newNews);
 
             ret = num == 1 ? "true" : "fail-to-insert";
@@ -88,8 +91,8 @@ public class NewsController {
             String endpoint = "http://oss-cn-shenzhen.aliyuncs.com";
 
             // 阿里云主账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM账号进行API访问或日常运维，请登录 https://ram.console.aliyun.com 创建RAM账号。
-            String accessKeyId = "LTAIXdEGhPL3123jsbso";
-            String accessKeySecret = "S5kLD36DxAsAD123123213213w512si23547QeWCNXw0QO";
+            String accessKeyId = "LTAIXdEGhPLjsbso";
+            String accessKeySecret = "S5kLD36DxAsADw512si7QeWCNXw0QO";
             String bucketName = "ztqimage";
             String objectName = UUID.randomUUID().randomUUID().toString()
                     + file.getOriginalFilename();
