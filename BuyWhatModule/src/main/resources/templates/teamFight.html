@@ -118,21 +118,21 @@
     <input type="hidden" name="battleMsg" value="$!{battleMsg}">
 
 
-    <div style="position: absolute ;top: 30%;left: 38%">
+    <div style="position: absolute ;top: 30%;left: 35%">
 
 
 
-        <input type="hidden" name="leftHit" value="25">
-        <input type="hidden" name="rightHit" value="25">
-        <button style="height: 40px;width: 100px" onclick="choose1()">草系出战</button>
-        <button style="height: 40px;width: 100px" onclick="choose2()">火系出战</button>
-        <button style="height: 40px;width: 100px" onclick="choose3()">水系出战</button>
+        <input type="hidden" name="leftHit" value="25">##伤害信息
+        <input type="hidden" name="rightHit" value="25">##伤害信息
+        <button style="height: 40px;width: 130px" onclick="choose1()">草系出战</button>
+        <button style="height: 40px;width: 130px" onclick="choose2()">火系出战</button>
+        <button style="height: 40px;width: 130px" onclick="choose3()">水系出战</button>
 
 
       ##  <button onsubmit="true" style="height: 100px;width: 200px"><h3>就决定是你了</h3></button>
         <br>
         <h3>对战信息:</h3>
-        <textarea style="height: 300px;width: 400px">$!{battleMsg}</textarea>
+        <textarea readonly style="height: 300px;width: 400px">$!{battleMsg}</textarea>
     </div>
 
 
