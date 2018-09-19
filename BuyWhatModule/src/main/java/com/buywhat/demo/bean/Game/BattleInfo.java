@@ -17,6 +17,16 @@ public class BattleInfo {
     //玩家选择战斗的精灵ID
     Integer chooseId;
 
+    //战斗信息
+    String battleMsg;
+
+    public String getBattleMsg() {
+        return battleMsg;
+    }
+
+    public void setBattleMsg(String battleMsg) {
+        this.battleMsg = battleMsg;
+    }
 
     public Integer getP1Id() {
         return p1Id;

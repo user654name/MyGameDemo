@@ -177,9 +177,10 @@ public class TeamFightController {
         }
 
 
-        //读取战斗信息
+        //读取本次战斗信息
         String battleMsg = (String) battleMap.get("battleMsg");
 
+        battleMsg = battleMsg + battleInfo.getBattleMsg();
 
         //初始化 创建敌我各三只PM信息
         Map pokeMap = service.findPmBeforeGame();
@@ -201,7 +202,7 @@ public class TeamFightController {
         model.addAttribute("player2Hp", player2Hp);
 
         //放入战斗详情信息
-        model.addAttribute("BattleMSG", battleMsg);
+        model.addAttribute("battleMsg", battleMsg);
 
         System.out.println(battleMsg);
 

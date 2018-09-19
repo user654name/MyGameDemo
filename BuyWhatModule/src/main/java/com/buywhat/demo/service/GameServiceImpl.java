@@ -148,7 +148,7 @@ public class GameServiceImpl implements GameService {
         }
         //设置战斗信息
         battleMsg = battleMsg + "玩家的【" + playerPm.getName() + "】对电脑的【" + comPm.getName() + "】造成【" + comHurt * -1 + "】点伤害\n" +
-                "电脑的【" + comPm.getName() + "】对玩家的【" + playerPm.getName() + "】造成【" + playerHurt * -1 + "】点伤害";
+                "电脑的【" + comPm.getName() + "】对玩家的【" + playerPm.getName() + "】造成【" + playerHurt * -1 + "】点伤害\n";
 
 
         map.put("comHurt", comHurt);
