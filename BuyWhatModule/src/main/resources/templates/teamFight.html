@@ -120,45 +120,12 @@
 
     </div>
 
-    #########战斗信息
 
+    #######【信息显示】页面单独弄出去了
 
-    <div style="position: absolute ;top: 20%;left: 35%;width: 400px">
-        ###出战精灵信息
-        ##玩家1精灵
-        #if(${plPmFighting})
-        <div style=" visibility:hidden;height: 30px;position: absolute">
-            ##这个DIV层用实现来【占位】功能
-        </div>
-        <div style="position: absolute;left: 0px;top: 30px;width: 400px">
-            <!--<img src="https://ztqimage.oss-cn-shenzhen.aliyuncs.com/teamfight/%E9%97%AA%E7%94%B5%E9%B8%9F%E8%83%8C%E6%99%AF.png"-->
-                 <!--alt="战斗背景" style="z-index: -1">-->
-            <img style="position: absolute;left: 0px" src="$!{plPmFighting.url}" alt="p1选中的PM" class="fightpmimg">
+    #parse("teamFightShowInfo.html")
 
-            ##玩家2精灵
-            <img style="position: absolute;left: 290px" src="$!{p2PmFighting.url}" alt="P2选中的PM" class="fightpmimg">
-        </div>
-        #else
-
-        <div style=" visibility:hidden;height: 140px;position: absolute">
-            ##这个DIV层用实现来【占位】功能
-        </div>
-        #end
-
-        ##玩家信息
-        <div style="position: absolute;left: 0px;top: 150px;">
-            <button class="stylegrass" form="fight" style="height: 40px;width: 130px" onclick="choose1()">草系出战</button>
-            <button class="stylefire" form="fight" style="height: 40px;width: 130px" onclick="choose2()">火系出战</button>
-            <button class="stylewater" form="fight" style="height: 40px;width: 130px" onclick="choose3()">水系出战</button>
-
-        </div>
-        ##
-        <div style="position:absolute;top: 190px;">
-            <h3>对战信息:</h3>
-            <textarea style="height: 240px;width: 400px" form="fight"
-                      readonly>$!{battleMsg}</textarea>
-        </div>
-    </div>
+    #######【信息显示】页面单独弄出去了
 
 
     #########对方模块

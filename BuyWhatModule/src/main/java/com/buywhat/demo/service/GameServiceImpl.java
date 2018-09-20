@@ -1,5 +1,6 @@
 package com.buywhat.demo.service;
 
+import com.buywhat.demo.bean.game.HurtInfo;
 import com.buywhat.demo.bean.game.Pokemon2;
 import com.buywhat.demo.bean.game.TeamGameRecord;
 import com.buywhat.demo.dao.Pokemon2Mapper;
@@ -41,6 +42,11 @@ public class GameServiceImpl implements GameService {
         return map;
     }
 
+    /**
+     * @param comPmId    电脑选择的精灵ID
+     * @param playerPmId 玩家选择的精灵ID
+     * @return
+     */
     @Override
     public Map hitEachOther(Integer comPmId, Integer playerPmId) {
         Map map = new HashMap();
@@ -48,8 +54,8 @@ public class GameServiceImpl implements GameService {
         /**
          * winner表示这回合的游戏赢家
          * 0平局
-         * 1玩家赢
-         * -1电脑赢
+         * 1玩家1赢
+         * -1电脑(玩家2)赢
          */
         Integer winner = null;
 
@@ -152,6 +158,13 @@ public class GameServiceImpl implements GameService {
             }
 
         }
+        HurtInfo p1HurtInfo = new HurtInfo();
+        HurtInfo p2HurtInfo = new HurtInfo();
+
+
+        setHurtInfo(winner, comHurt, playerHurt, p1HurtInfo, p2HurtInfo);
+
+
         //设置战斗信息
         battleMsg = battleMsg + "玩家的【" + playerPm.getName() + "】对电脑的【" + comPm.getName() + "】造成【" + comHurt * -1 + "】点伤害\n" +
                 "电脑的【" + comPm.getName() + "】对玩家的【" + playerPm.getName() + "】造成【" + playerHurt * -1 + "】点伤害\n";
@@ -165,6 +178,30 @@ public class GameServiceImpl implements GameService {
 
         System.out.println("map = " + map);
         return map;
+    }
+
+    /**
+     * 根据胜负情况设置伤害信息
+     *
+     * @param winner     战况
+     * @param comHurt    P2 HP损伤
+     * @param playerHurt P1 HP损伤
+     * @param p1HurtInfo P1 伤害信息
+     * @param p2HurtInfo P2 伤害信息
+     */
+    private void setHurtInfo(Integer winner, Integer comHurt, Integer playerHurt, HurtInfo p1HurtInfo, HurtInfo p2HurtInfo) {
+        switch (winner) {
+            case 0://平局，均势局
+                break;
+            case 1:// P1回合胜
+                break;
+            case -1://P2回合胜
+                break;
+            default:
+                System.out.println("不可能走到这里");
+                break;
+        }
+
     }
 
     /**
