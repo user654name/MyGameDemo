@@ -7,6 +7,7 @@ import com.buywhat.demo.dao.Pokemon2Mapper;
 import com.buywhat.demo.dao.TeamGameRecordMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import sun.security.pkcs11.P11TlsKeyMaterialGenerator;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -161,8 +162,12 @@ public class GameServiceImpl implements GameService {
         HurtInfo p1HurtInfo = new HurtInfo();
         HurtInfo p2HurtInfo = new HurtInfo();
 
-
+        //根据战况 设置 伤害信息
         setHurtInfo(winner, comHurt, playerHurt, p1HurtInfo, p2HurtInfo);
+
+        //将伤害信息放入
+        map.put("p1HurtInfo", p1HurtInfo);
+        map.put("p2HurtInfo", p2HurtInfo);
 
 
         //设置战斗信息
@@ -190,12 +195,66 @@ public class GameServiceImpl implements GameService {
      * @param p2HurtInfo P2 伤害信息
      */
     private void setHurtInfo(Integer winner, Integer comHurt, Integer playerHurt, HurtInfo p1HurtInfo, HurtInfo p2HurtInfo) {
+
+        String midColor = "blue";
+        String goodColor = "green";
+        String badColor = "red";
+
         switch (winner) {
             case 0://平局，均势局
+                p1HurtInfo.setInfo1("均势局");
+                p1HurtInfo.setColor1(midColor);
+
+                p1HurtInfo.setInfo2("HP" + playerHurt);
+                p1HurtInfo.setColor2(midColor);
+
+
+                p2HurtInfo.setInfo1("均势局");
+                p2HurtInfo.setColor1(midColor);
+
+                p2HurtInfo.setInfo2("HP" + comHurt);
+                p2HurtInfo.setColor2(midColor);
+
                 break;
             case 1:// P1回合胜
+                p1HurtInfo.setInfo1("GOOD");
+                p1HurtInfo.setColor1(goodColor);
+
+                p1HurtInfo.setInfo2("无伤");
+                p1HurtInfo.setColor2(goodColor);
+
+
+                if (comHurt == -10) {
+                    p2HurtInfo.setInfo1("重伤");
+                } else {
+                    p2HurtInfo.setInfo1("轻伤");
+                }
+                p2HurtInfo.setColor1(badColor);
+
+                p2HurtInfo.setInfo2("HP" + comHurt);
+                p2HurtInfo.setColor2(badColor);
+
                 break;
+
             case -1://P2回合胜
+                p2HurtInfo.setInfo1("GOOD!");
+                p2HurtInfo.setColor1(goodColor);
+
+                p2HurtInfo.setInfo2("无伤");
+                p2HurtInfo.setColor2(goodColor);
+
+
+                if (playerHurt == -10) {
+                    p1HurtInfo.setInfo1("重伤");
+                } else {
+                    p1HurtInfo.setInfo1("轻伤");
+                }
+                p1HurtInfo.setColor1(badColor);
+
+                p1HurtInfo.setInfo2("HP" + playerHurt);
+                p1HurtInfo.setColor2(badColor);
+
+
                 break;
             default:
                 System.out.println("不可能走到这里");

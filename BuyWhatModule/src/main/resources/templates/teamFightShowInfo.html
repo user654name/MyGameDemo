@@ -10,24 +10,40 @@
     ##玩家1精灵
     #if(${plPmFighting})
     ##
-    <div style=" visibility:hidden;height: 30px;position: absolute"></div>
-    <button class="p1info1" style="height: 30px;width: 60px">HP-10</button>
-    <button class="p2info1" style="height: 30px;width: 60px">perfect</button>
+    <div  style=" visibility:hidden;height: 30px;position: absolute"></div>
+    <button class="p1info1"  style="height: 30px;width: 60px;position: absolute;left: 0px">$!{p1HurtInfo.info1}</button>
+    <button class="p1info2" style="height: 30px;width: 60px;position: absolute;left: 65px">$!{p1HurtInfo.info2}</button>
 
+    <button class="p2info1"  style="height: 30px;width: 60px;position: absolute;left: 265px">$!{p2HurtInfo.info1}</button>
+    <button class="p2info2" style="height: 30px;width: 60px;position: absolute;left: 330px">$!{p2HurtInfo.info2}</button>
 
 
     <style>
         .p1info1 {
-            background-color: red;
-            color: white;
-            opacity: 0.85;
+        background-color: $!{p1HurtInfo.color1};
+        color: white;
+        opacity: 0.85;
         }
 
-        .p2info1 {
-            background-color: green;
-            color: white;
-            opacity: 0.85;
+        .p1info2 {
+        background-color: $!{p1HurtInfo.color2};
+        color: white;
+        opacity: 0.85;
         }
+
+
+        .p2info1 {
+        background-color: $!{p2HurtInfo.color1};
+        color: white;
+        opacity: 0.85;
+        }
+
+        .p2info2 {
+        background-color: $!{p2HurtInfo.color2};
+        color: white;
+        opacity: 0.85;
+        }
+
 
     </style>
 

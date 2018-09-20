@@ -279,9 +279,12 @@ public class TeamFightController {
         Pokemon2 p2PmFighting = pokemon2Mapper.selectByPrimaryKey(comPmId);
 
         //放入两个出战的精灵图片
-        model.addAttribute("plPmFighting",plPmFighting);
-        model.addAttribute("p2PmFighting",p2PmFighting);
+        model.addAttribute("plPmFighting", plPmFighting);
+        model.addAttribute("p2PmFighting", p2PmFighting);
 
+
+        model.addAttribute("p1HurtInfo",battleMap.get("p1HurtInfo"));
+        model.addAttribute("p2HurtInfo",battleMap.get("p2HurtInfo"));
 
         System.out.println(battleMsg);
 
