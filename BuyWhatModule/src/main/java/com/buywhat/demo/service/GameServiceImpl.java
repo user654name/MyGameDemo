@@ -237,7 +237,7 @@ public class GameServiceImpl implements GameService {
                 break;
 
             case -1://P2回合胜
-                p2HurtInfo.setInfo1("GOOD!");
+                p2HurtInfo.setInfo1("GOOD");
                 p2HurtInfo.setColor1(goodColor);
 
                 p2HurtInfo.setInfo2("无伤");

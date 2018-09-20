@@ -4,6 +4,8 @@ import com.buywhat.demo.bean.game.TeamGameRecord;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 @Mapper
 public interface TeamGameRecordMapper {
@@ -26,4 +28,19 @@ public interface TeamGameRecordMapper {
      * @return 这个玩家的战绩信息
      */
     TeamGameRecord selectByUserId(Integer playerId);
+
+    /**
+     * 根据游戏胜场进行排名
+     *
+     * @return
+     */
+    List<TeamGameRecord> selectTop10ByWin();
+
+
+    /**
+     * 根据游戏胜率进行排名
+     *
+     * @return
+     */
+    List<TeamGameRecord> selectTop10ByWinRate();
 }

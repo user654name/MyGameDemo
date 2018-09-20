@@ -2,6 +2,7 @@ package com.buywhat.demo.controller.game;
 
 import com.buywhat.demo.bean.User;
 import com.buywhat.demo.bean.game.BattleInfo;
+import com.buywhat.demo.bean.game.HurtInfo;
 import com.buywhat.demo.bean.game.Pokemon2;
 import com.buywhat.demo.bean.game.TeamGameRecord;
 import com.buywhat.demo.dao.Pokemon2Mapper;
@@ -180,6 +181,9 @@ public class TeamFightController {
         }
 
 
+        HurtInfo p1HurtInfo = (HurtInfo) battleMap.get("p1HurtInfo");
+        HurtInfo p2HurtInfo = (HurtInfo) battleMap.get("p2HurtInfo");
+
         /**
          *        如果【游戏没有结束】
          *
@@ -278,13 +282,13 @@ public class TeamFightController {
         Pokemon2 plPmFighting = pokemon2Mapper.selectByPrimaryKey(playerPmId);
         Pokemon2 p2PmFighting = pokemon2Mapper.selectByPrimaryKey(comPmId);
 
-        //放入两个出战的精灵图片
+        //放入两个出战的精灵图片（以及资料）
         model.addAttribute("plPmFighting", plPmFighting);
         model.addAttribute("p2PmFighting", p2PmFighting);
 
 
-        model.addAttribute("p1HurtInfo",battleMap.get("p1HurtInfo"));
-        model.addAttribute("p2HurtInfo",battleMap.get("p2HurtInfo"));
+        model.addAttribute("p1HurtInfo",p1HurtInfo);
+        model.addAttribute("p2HurtInfo",p2HurtInfo);
 
         System.out.println(battleMsg);
 
@@ -294,8 +298,9 @@ public class TeamFightController {
 
     private void updateRecord(Model model, Integer player1Id, Integer player2Id, Integer playerWin) {
         //更新【玩家&电脑】战绩
-        service.updateTeamGameRecord(player1Id, player2Id, playerWin);
+        boolean updateSuccess = service.updateTeamGameRecord(player1Id, player2Id, playerWin);
 
+        System.out.println("插入成功updateSuccess = " + updateSuccess);
         //将最新的战绩信息返回
         TeamGameRecord player1Record = service.findTeamGameRecordByUserId(player1Id);
         TeamGameRecord player2Record = service.findTeamGameRecordByUserId(player2Id);

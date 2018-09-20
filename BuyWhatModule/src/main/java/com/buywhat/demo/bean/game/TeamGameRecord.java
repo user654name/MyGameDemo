@@ -7,6 +7,11 @@ public class TeamGameRecord {
 
     private Integer userId;
 
+
+    private String name;//玩家名字 根据ID查出来的
+
+    private Double winRate;
+
     private Integer win;
 
     private Integer total;
@@ -14,6 +19,23 @@ public class TeamGameRecord {
     private Date firstGameDate;
 
     private Date lastGameDate;
+
+
+    public Double getWinRate() {
+        return winRate;
+    }
+
+    public void setWinRate(Double winRate) {
+        this.winRate = winRate;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public Integer getId() {
         return id;
@@ -61,5 +83,19 @@ public class TeamGameRecord {
 
     public void setLastGameDate(Date lastGameDate) {
         this.lastGameDate = lastGameDate;
+    }
+
+    @Override
+    public String toString() {
+        return "TeamGameRecord{" +
+                "id=" + id +
+                ", userId=" + userId +
+                ", name='" + name + '\'' +
+                ", winRate=" + winRate +
+                ", win=" + win +
+                ", total=" + total +
+                ", firstGameDate=" + firstGameDate +
+                ", lastGameDate=" + lastGameDate +
+                '}';
     }
 }

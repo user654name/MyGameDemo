@@ -13,6 +13,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
 import java.util.Date;
+import java.util.List;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = DemoApplication.class)
@@ -24,6 +25,21 @@ public class GameTest {
 
     @Autowired
     TeamGameRecordMapper teamGameRecordMapper;
+
+
+    /**
+     * 2018年9月20日 23:21:58
+     */
+    @Test
+    public void test3() {
+
+        List<TeamGameRecord> teamGameRecordsteamGameRecords = teamGameRecordMapper.selectTop10ByWin();
+        System.out.println("teamGameRecordsteamGameRecords = " + teamGameRecordsteamGameRecords);
+
+
+    }
+
+
 
     @Test
     public void test1() {

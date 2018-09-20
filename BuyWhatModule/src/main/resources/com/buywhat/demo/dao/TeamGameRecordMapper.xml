@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.buywhat.demo.dao.TeamGameRecordMapper">
+    <sql id="Base_Column_List">
+        id, user_id, win, total, first_game_date, last_game_date
+    </sql>
+
+    <!--根据游戏胜率进行排名-->
+    <!--List<TeamGameRecord> selectTop10ByWinRate();-->
+
+
+    <!--根据胜场查询排名（不能包括电脑和游客）2018年9月20日 23:07:11-->
+    <!--List<TeamGameRecord> selectTop10ByWin();-->
+    <select id="selectTop10ByWin" resultMap="BaseResultMap">
+        SELECT *
+            FROM teamgamerecord AS t
+            INNER JOIN usertable as u
+            On t.user_id = u.id
+        WHERE t.user_id NOT in (-1,-2)
+        ORDER BY win DESC
+    </select>
+
 
     <!--TeamGameRecord selectByUserId(Integer playerId);-->
     <select id="selectByUserId" parameterType="java.lang.Integer" resultMap="BaseResultMap">
@@ -19,10 +38,9 @@
         <result column="total" jdbcType="INTEGER" property="total"/>
         <result column="first_game_date" jdbcType="TIMESTAMP" property="firstGameDate"/>
         <result column="last_game_date" jdbcType="TIMESTAMP" property="lastGameDate"/>
+        <!--<result column="name" property="name"/>-->
     </resultMap>
-    <sql id="Base_Column_List">
-    id, user_id, win, total, first_game_date, last_game_date
-  </sql>
+
     <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
         select
         <include refid="Base_Column_List"/>
