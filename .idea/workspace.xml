@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e54438-5bfc-4f71-a266-828621f62f1d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/BattleRecordController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/mails/Top10.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/game/TeamGameRecord.java" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/game/TeamGameRecord.java" />
       <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java" />
-      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/dao/TeamGameRecordMapper.java" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/dao/TeamGameRecordMapper.java" />
-      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/GameServiceImpl.java" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/GameServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/TeamGameRecordMapper.xml" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/TeamGameRecordMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/gameover.html" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/gameover.html" />
-      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/test/java/com/buywhat/demo/GameTest.java" afterPath="$PROJECT_DIR$/BuyWhatModule/src/test/java/com/buywhat/demo/GameTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/BuyWhatModule/target/" />
@@ -34,74 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="GameServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/GameServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="246" column="40" lean-forward="true" selection-start-line="246" selection-start-column="40" selection-end-line="246" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/test/java/com/buywhat/demo/GameTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="36" column="97" lean-forward="false" selection-start-line="36" selection-start-column="97" selection-end-line="36" selection-end-column="97" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeamGameRecordMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/TeamGameRecordMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-              <folding>
-                <marker date="1537456684419" expanded="true" signature="570:750" ph="SELECT * FRO... teamgamerecord" />
-                <marker date="1537456684419" expanded="true" signature="928:1037" ph="SELECT FROM teamgamerecord" />
-                <marker date="1537456684419" expanded="true" signature="928:1053" ph="SELECT FROM teamgamerecord" />
-                <marker date="1537456684419" expanded="true" signature="1773:1893" ph="select from teamgamerecord" />
-                <marker date="1537456684419" expanded="true" signature="1983:2047" ph="delete from teamgamerecord... " />
-                <marker date="1537456684419" expanded="true" signature="2147:2449" ph="insert into teamgamerecord... " />
-                <marker date="1537456684419" expanded="true" signature="3989:4667" ph="update teamgamerecord... " />
-                <marker date="1537456684419" expanded="true" signature="4781:5083" ph="update teamgamerecord... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeamGameRecordMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/dao/TeamGameRecordMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Top10.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/mails/Top10.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeamFightController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TeamFightController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="300" column="0" lean-forward="false" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
+            <state relative-caret-position="440">
+              <caret line="228" column="18" lean-forward="false" selection-start-line="228" selection-start-column="18" selection-end-line="228" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -196,8 +125,8 @@
       <find>hp</find>
       <find>gameover</find>
       <find>p1HurtInfo</find>
-      <find>对战</find>
       <find>GOOD!</find>
+      <find>对战</find>
     </findStrings>
     <replaceStrings>
       <replace>User</replace>
@@ -561,7 +490,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest.test3">
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -822,7 +751,7 @@
       <workItem from="1537316625368" duration="21316000" />
       <workItem from="1537403403665" duration="12158000" />
       <workItem from="1537425263997" duration="203000" />
-      <workItem from="1537432416603" duration="25841000" />
+      <workItem from="1537432416603" duration="26224000" />
     </task>
     <task id="LOCAL-00001" summary="yeah">
       <created>1537186385784</created>
@@ -1020,7 +949,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537452122783</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="睡前保存一下 正在写胜率排行榜的SQL语句 还需要再学习才行">
+      <created>1537459113806</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1537459113806</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1056,7 +992,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290094000" />
+    <option name="totallyTimeSpent" value="290477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="251" y="-9" width="1678" height="1098" extended-state="6" />
@@ -1142,7 +1078,6 @@
     <ignored-roots>
       <path value="D:\Users\Administrator\0912BuyWhat\NewsWeb" />
     </ignored-roots>
-    <MESSAGE value="未登录用户不能查看任何用户信息&#10;已登录用户不能查看不存在的用户信息 会跳转到新增的错误页面（呆呆兽）&#10;但是如果已登录用户查看一个数字很大的用户ID的信息 还是会出错！！！【将子串解析成int】" />
     <MESSAGE value="睡前保存一下 真累 还有好多内容要写" />
     <MESSAGE value="写了一个简单的POKEMON对战功能（基于发动随机数*攻击力扣除HP的小游戏）" />
     <MESSAGE value="增加一个3对3团战的页面，刚开始写，保存一下未完成的页面" />
@@ -1167,7 +1102,8 @@
     <MESSAGE value="改善了3v3界面 中间部分各元素定位问题" />
     <MESSAGE value="改善了3v3界面 图形化战斗界面 正在增加回合伤害信息的功能" />
     <MESSAGE value="改善了3v3界面 图形化战斗界面 每回合伤害信息已经可以显示" />
-    <option name="LAST_COMMIT_MESSAGE" value="改善了3v3界面 图形化战斗界面 每回合伤害信息已经可以显示" />
+    <MESSAGE value="睡前保存一下 正在写胜率排行榜的SQL语句 还需要再学习才行" />
+    <option name="LAST_COMMIT_MESSAGE" value="睡前保存一下 正在写胜率排行榜的SQL语句 还需要再学习才行" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1190,7 +1126,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java</url>
-          <line>300</line>
+          <line>302</line>
           <properties />
           <option name="timeStamp" value="108" />
         </line-breakpoint>
@@ -1508,14 +1444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/mails/Top10.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/game/BattleInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1569,14 +1497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/dao/TeamGameRecordMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/game/TeamGameRecord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1323">
@@ -1598,6 +1518,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.6.RELEASE/spring-web-4.2.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/GameServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="202" column="25" lean-forward="true" selection-start-line="202" selection-start-column="25" selection-end-line="202" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1631,37 +1577,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.6.RELEASE/spring-web-4.2.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/dao/TeamGameRecordMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="303">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/DemoApplication.java">
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/mails/Top10.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="297">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="300" column="0" lean-forward="false" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
+        <state relative-caret-position="440">
+          <caret line="228" column="18" lean-forward="false" selection-start-line="228" selection-start-column="18" selection-end-line="228" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/GameServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="246" column="40" lean-forward="true" selection-start-line="246" selection-start-column="40" selection-end-line="246" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -202,6 +202,7 @@ public class TeamFightController {
             if (playerPmId != 3 && playerPmId != 6 && playerPmId != 9) {
                 //玩家Pm不是最高进化型，可以进化
                 playerPmId = playerPmId + 1;//Pm进化后ID
+                p1HurtInfo.setInfo1("进化");
                 //根据Pm位置更新他的ID
                 switch (playerPmNum) {//playerPmNum 精灵位置
                     case 1:
@@ -225,6 +226,7 @@ public class TeamFightController {
             if (comPmId != 3 && comPmId != 6 && comPmId != 9) {
                 //电脑Pm不是最高进化型，可以进化
                 comPmId = comPmId + 1;//Pm进化后ID
+                p2HurtInfo.setInfo1("进化");
                 //根据Pm位置更新他的ID
                 switch (comPmNum) {//playerPmNum 精灵位置
                     case 1:
