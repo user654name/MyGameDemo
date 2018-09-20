@@ -1,5 +1,7 @@
 package com.buywhat.demo.service;
 
+import com.buywhat.demo.bean.game.TeamGameRecord;
+
 import java.util.Map;
 
 public interface GameService {
@@ -19,4 +21,20 @@ public interface GameService {
      * @return 战斗结果信息
      */
     Map hitEachOther(Integer comPmId, Integer playerPmId);
+
+    /**
+     * @param player1Id 玩家1 id
+     * @param player2Id   玩家2 id 通常是电脑
+     * @param playerWin 玩家1 是否获胜
+     * @return 战绩信息更新 成功
+     */
+    boolean updateTeamGameRecord(Integer player1Id, Integer player2Id, Integer playerWin);
+
+    /**
+     * 根据玩家ID查新对应的战绩
+     *
+     * @param playerId
+     * @return
+     */
+    TeamGameRecord findTeamGameRecordByUserId(Integer playerId);
 }

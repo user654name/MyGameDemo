@@ -1,10 +1,13 @@
 package com.buywhat.demo.service;
 
 import com.buywhat.demo.bean.game.Pokemon2;
+import com.buywhat.demo.bean.game.TeamGameRecord;
 import com.buywhat.demo.dao.Pokemon2Mapper;
+import com.buywhat.demo.dao.TeamGameRecordMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,6 +16,9 @@ public class GameServiceImpl implements GameService {
 
     @Autowired
     Pokemon2Mapper pokemon2Mapper;
+
+    @Autowired
+    TeamGameRecordMapper recordMapper;
 
     /**
      * 战斗前初始化PM
@@ -159,6 +165,106 @@ public class GameServiceImpl implements GameService {
 
         System.out.println("map = " + map);
         return map;
+    }
+
+    /**
+     * 根据玩家获胜结果
+     * 在数据库里更新各自战绩
+     *
+     * @param player1Id 玩家1 id
+     * @param player2Id 玩家2 id 通常是电脑
+     * @param playerWin 玩家1 是否获胜
+     * @return
+     */
+    @Override
+    public boolean updateTeamGameRecord(Integer player1Id, Integer player2Id, Integer playerWin) {
+        boolean winnerRecord = false;
+        boolean loserRecord = false;
+        //读取游戏结束的信息
+        if (playerWin == 1) {//玩家1获胜
+            winnerRecord = updateTeamGameRecord(player1Id, true);
+            loserRecord = updateTeamGameRecord(player2Id, false);
+        } else if (playerWin == 2) {//玩家2获胜
+            winnerRecord = updateTeamGameRecord(player2Id, true);
+            loserRecord = updateTeamGameRecord(player1Id, false);
+        } else if (playerWin == 0) {//平局→即为玩家都失败
+            winnerRecord = updateTeamGameRecord(player2Id, false);
+            loserRecord = updateTeamGameRecord(player1Id, false);
+        } else {
+            System.out.println("不可能走到这个方法的！【updateTeamGameRecord】");
+        }
+
+        //返回插入结果 两次操作都成功则为true
+        return winnerRecord && loserRecord;
+    }
+
+
+    /**
+     * 根据玩家ID查新对应的战绩
+     *
+     * @param playerId
+     * @return
+     */
+    @Override
+    public TeamGameRecord findTeamGameRecordByUserId(Integer playerId) {
+
+        return recordMapper.selectByPrimaryKey(playerId);
+    }
+
+    /**
+     * 根据胜利结果 更新指定玩家的战绩
+     *
+     * @param playerId 玩家的用户ID
+     * @param isWinner 玩家获胜的情况
+     * @return 信息是否插入成功
+     */
+    private boolean updateTeamGameRecord(Integer playerId, Boolean isWinner) {
+        //对于胜利者的操作
+        //先查一下有没有记录
+        TeamGameRecord playerRecord = recordMapper.selectByUserId(playerId);
+
+        Integer result = null;//查询的结果（更新或插入的条数）
+
+        if (playerRecord != null) {//如果有记录就进行更改
+
+            playerRecord.setLastGameDate(new Date());//保存玩家最后一局游戏时间
+            playerRecord.setTotal(playerRecord.getTotal() + 1);//总场次+1
+
+            if (isWinner) {//这个玩家是胜者
+                playerRecord.setWin(playerRecord.getWin() + 1);//胜场+1
+            }//如果不是胜者 一切继续
+
+            result = recordMapper.updateByPrimaryKeySelective(playerRecord);//将新的信息插入
+
+            if (result != 1) {//记录更新信息是否成功
+                System.out.println("update战绩时发生错误！！！");
+            }
+
+        } else {//如果没有记录就插入一条新的
+            //配置战绩的基本信息
+
+            Date timeNow = new Date();
+            playerRecord = new TeamGameRecord();
+            playerRecord.setTotal(1);
+            playerRecord.setFirstGameDate(timeNow);//2018年9月20日 14:32:22出错
+            playerRecord.setLastGameDate(timeNow);
+            playerRecord.setUserId(playerId);
+
+            if (isWinner) {//如果玩家是胜者
+                playerRecord.setWin(1);//增加一场胜场
+            } else {//这个玩家第一局就输了
+                playerRecord.setWin(0);//胜场为0
+            }
+
+            //插入数据
+            result = recordMapper.insert(playerRecord);
+            if (result != 1) {//记录插入信息是否成功
+                System.out.println("insert战绩时发生错误！！！");
+            }
+
+        }
+        //返回是否更新成功
+        return result == 1 ? true : false;
     }
 
 

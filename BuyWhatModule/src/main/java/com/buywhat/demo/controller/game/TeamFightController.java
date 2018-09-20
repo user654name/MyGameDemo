@@ -1,8 +1,12 @@
 package com.buywhat.demo.controller.game;
 
+import com.buywhat.demo.bean.User;
 import com.buywhat.demo.bean.game.BattleInfo;
+import com.buywhat.demo.bean.game.TeamGameRecord;
 import com.buywhat.demo.dao.Pokemon2Mapper;
+import com.buywhat.demo.dao.TeamGameRecordMapper;
 import com.buywhat.demo.service.GameServiceImpl;
+import org.omg.CORBA.PUBLIC_MEMBER;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -18,9 +22,20 @@ public class TeamFightController {
     GameServiceImpl service;
     @Autowired
     Pokemon2Mapper pokemon2Mapper;
+    @Autowired
+    TeamGameRecordMapper recordMapper;
 
     Integer player1Hp;
     Integer player2Hp;
+
+
+    @RequestMapping("gameover")
+    public String toGameOverPage(Model model, HttpSession session) {
+
+        model.addAttribute("gameover", "你挂了,充钱立即复活");
+
+        return "gameover";
+    }
 
 
     @RequestMapping("teamfight")
@@ -48,8 +63,33 @@ public class TeamFightController {
     }
 
 
+    /**
+     * 开始战斗之后 执行的方法
+     *
+     * @param model
+     * @param session
+     * @param battleInfo
+     * @return
+     */
     @RequestMapping("teamfightgogogo")
     public String doTeamFight(Model model, HttpSession session, BattleInfo battleInfo) {
+        //首先设置玩家双方的ID值
+        //获取玩家的身份信息
+        User player1 = (User) session.getAttribute("user");
+
+        //设置双方玩家的ID
+        Integer player1Id;//玩家1ID
+        Integer player2Id = -2;//玩家2ID
+
+        //设置根据玩家1登录情况，读取信息
+        if (player1 != null) {//若用户已经登录
+            //读取用户id
+            player1Id = player1.getId();
+
+        } else {//若用户未登录
+            //userId为-1的游客账户 用来作为临时账号储存战绩
+            player1Id = -1;
+        }
 
 
         //生成随机数 模拟电脑的选择
@@ -79,7 +119,7 @@ public class TeamFightController {
         playerPmNum = playerPmId > 3 ? (playerPmId > 6 ? 3 : 2) : 1;
 
         //计算对战结果
-        //计算谁赢了
+        //计算这回合对战情况
         /**
          *      这是方法中的map信息
          *      map.put("comHurt", comHurt);
@@ -89,37 +129,68 @@ public class TeamFightController {
          */
         Map battleMap = service.hitEachOther(comPmId, playerPmId);
 
-        //读取受伤信息
+
+        /**
+         *
+         *    【游戏结束】
+         * playerWin代表游戏结果
+         * 值为1 代表玩家1胜利 值为2 代表玩家2胜利 值为0 代表极少出现的平局
+         * （在之后的版本中 应该避免平局的出现？）
+         */
+        Integer playerWin;//游戏结束的结果（胜利情况）
+
+        //【游戏没有结束】读取受伤信息
         Integer comHurt = (Integer) battleMap.get("comHurt");
         Integer playerHurt = (Integer) battleMap.get("playerHurt");
 
+        //【首先】计算战斗后剩余生命值
+        player1Hp = battleInfo.getPlayer1Hp() + playerHurt;
+        player2Hp = battleInfo.getPlayer2Hp() + comHurt;
+
+
+        if (player1Hp <= 0 && player2Hp > 0) {//玩家1挂了,玩家2活着
+            playerWin = 2;
+            model.addAttribute("gameover", "你挂了,充钱立即复活");
+
+            //更新战绩信息
+            updateRecord(model, player1Id, player2Id, playerWin);
+
+
+            return "gameover";
+
+        } else if (player2Hp <= 0 && player1Hp > 0) {//玩家1活着,但是玩家2挂了
+            playerWin = 1;
+
+            //更新战绩信息
+            updateRecord(model, player1Id, player2Id, playerWin);
+
+            model.addAttribute("gameover", "你赢了,嘻嘻");
+            return "gameover";
+
+        } else if (player1Hp <= 0 && player2Hp <= 0) {//难得一见的同时挂掉→平局
+            playerWin = 0;
+
+            //更新战绩信息
+            updateRecord(model, player1Id, player2Id, playerWin);
+
+            model.addAttribute("gameover", "哇,你们一起挂掉了,平局很少见的哦！");
+
+            return "gameover";
+        }
+
 
         /**
+         *        如果【游戏没有结束】
+         *
          *        将信息封装给前端战斗页面
          *        前端需要信息——6个精灵的对象信息
          *        两个玩家的血量信息
          *        战斗详情信息
          *
          */
-        //【首先】计算战斗后剩余生命值
-        player1Hp = battleInfo.getPlayer1Hp() + playerHurt;
-        player2Hp = battleInfo.getPlayer2Hp() + comHurt;
-        if (player1Hp <= 0 && player2Hp > 0) {//玩家挂了,电脑活着
-            model.addAttribute("gameover", "你挂了,充钱立即复活");
-            return "gameover";
-
-        } else if (player2Hp <= 0 && player1Hp > 0) {//你活着,但是电脑挂了
-            model.addAttribute("gameover", "你赢了,嘻嘻");
-            return "gameover";
-
-        } else if (player1Hp <= 0 && player2Hp <= 0) {
-            model.addAttribute("gameover", "哇,你们一起挂掉了,平局很少见的哦！");
-            return "gameover";
-
-        }
 
 
-        //读取获胜信息
+        //读取【【本回合】】获胜信息
         Integer winner = (Integer) battleMap.get("winner");
         //根据获胜信息判断是否可以进化
         if (winner == 1) {//玩家赢了
@@ -181,7 +252,7 @@ public class TeamFightController {
         battleMsg = battleMsg + battleInfo.getBattleMsg();
 
         //初始化 创建敌我各三只PM信息
-        Map pokeMap = service.findPmBeforeGame();
+//        Map pokeMap = service.findPmBeforeGame();//方法暂时不用
 
 
         //初始化我方三只
@@ -199,12 +270,26 @@ public class TeamFightController {
         model.addAttribute("player1Hp", player1Hp);
         model.addAttribute("player2Hp", player2Hp);
 
-        //放入战斗详情信息
+        //放入战斗详情【文本】信息
         model.addAttribute("battleMsg", battleMsg);
 
         System.out.println(battleMsg);
 
         return "teamFight";
+    }
+
+
+    private void updateRecord(Model model, Integer player1Id, Integer player2Id, Integer playerWin) {
+        //更新【玩家&电脑】战绩
+        service.updateTeamGameRecord(player1Id, player2Id, playerWin);
+
+        //将最新的战绩信息返回
+        TeamGameRecord player1Record = service.findTeamGameRecordByUserId(player1Id);
+        TeamGameRecord player2Record = service.findTeamGameRecordByUserId(player2Id);
+
+        //将战绩信息放入Model中
+        model.addAttribute("player1Record", player1Record);
+        model.addAttribute("player2Record", player2Record);
     }
 
 

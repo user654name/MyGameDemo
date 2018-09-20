@@ -1,5 +1,7 @@
 package com.buywhat.demo.bean.game;
 
+//纪录对战情况 用于【封装】从前端页面返回数据
+
 public class BattleInfo {
 
     //对战Pm情况

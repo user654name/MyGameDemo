@@ -1,12 +1,50 @@
 #parse("gameHeader.html")
-<div align="center">
+<style>
+    button
+    {
+        background-color:black;
+        color:white;
+        opacity:0.2;
+    }
+
+
+</style>
+<div align="left">
+    ##背景画面
     <img
             src="https://s1.52poke.wiki/wiki/thumb/a/a8/%E8%8E%8E%E8%8E%89%E5%A8%9C_XY.png/220px-%E8%8E%8E%E8%8E%89%E5%A8%9C_XY.png"
             alt="">
-    <h1>$!{gameover}
-    </h1>
-    <button><h1><a href="/teamfight">再来一局</a></h1></button>
+
+    ##游戏结束提示信息
+    <h1 style="color:#FFFFFF;"  id="gameOverInfo" onclick="abc()">$!{gameover}</h1>
+
+
+    ##功能按钮
+    <button><h1><a href="/teamfight" style="color:#FFFFFF;">再来一局</a></h1></button>
+
+
+
 </div>
 
+<script type="text/javascript">
 
+//    function showInfo() {
+//
+//        var msgElement = document.getElementById("gameOverInfo");
+//        var info = msgElement.innerText;
+//
+//
+//        var r = confirm(info);
+//        if (r == true) {
+//            alert("嘿嘿");
+//        }
+//        else {
+//            alert("嘻嘻");
+//        }
+//
+//    }
+//
+//    //自动调用弹框
+//    window.onload = showInfo;
+</script>
 #parse("footer.html")
