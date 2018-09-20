@@ -33,7 +33,7 @@
 
 #########我方信息
 <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537329231869&di=183341a602429bafc5bfc40c5f3ce846&imgtype=0&src=http%3A%2F%2Fpic.k73.com%2Fup%2Fsoft%2F2016%2F0608%2F142454_28755504.jpg"
-     style="z-index: -2;width: 100%" alt="back">
+     style="z-index: -10;width: 100%" alt="back">
 <form id="fight" action="/teamfightgogogo" method="post">
     <div align="left" style="position: absolute ;top: 10%;left: 20px">
 
@@ -123,20 +123,41 @@
     #########战斗信息
 
 
-    <div style="position: absolute ;top: 30%;left: 35%">
+    <div style="position: absolute ;top: 20%;left: 35%;width: 400px">
+        ###出战精灵信息
+        ##玩家1精灵
+        #if(${plPmFighting})
+        <div style=" visibility:hidden;height: 30px;position: absolute">
+            ##这个DIV层用实现来【占位】功能
+        </div>
+        <div style="position: absolute;left: 0px;top: 30px;width: 400px">
+            <!--<img src="https://ztqimage.oss-cn-shenzhen.aliyuncs.com/teamfight/%E9%97%AA%E7%94%B5%E9%B8%9F%E8%83%8C%E6%99%AF.png"-->
+                 <!--alt="战斗背景" style="z-index: -1">-->
+            <img style="position: absolute;left: 0px" src="$!{plPmFighting.url}" alt="p1选中的PM" class="fightpmimg">
 
+            ##玩家2精灵
+            <img style="position: absolute;left: 290px" src="$!{p2PmFighting.url}" alt="P2选中的PM" class="fightpmimg">
+        </div>
+        #else
+
+        <div style=" visibility:hidden;height: 140px;position: absolute">
+            ##这个DIV层用实现来【占位】功能
+        </div>
+        #end
 
         ##玩家信息
+        <div style="position: absolute;left: 0px;top: 150px;">
+            <button class="stylegrass" form="fight" style="height: 40px;width: 130px" onclick="choose1()">草系出战</button>
+            <button class="stylefire" form="fight" style="height: 40px;width: 130px" onclick="choose2()">火系出战</button>
+            <button class="stylewater" form="fight" style="height: 40px;width: 130px" onclick="choose3()">水系出战</button>
 
-        <button class="stylegrass" form="fight" style="height: 40px;width: 130px" onclick="choose1()">草系出战</button>
-        <button class="stylefire" form="fight" style="height: 40px;width: 130px" onclick="choose2()">火系出战</button>
-        <button class="stylewater" form="fight" style="height: 40px;width: 130px" onclick="choose3()">水系出战</button>
-
-
+        </div>
         ##
-        <br>
-        <h3>对战信息:</h3>
-        <textarea form="fight" readonly style="height: 300px;width: 400px">$!{battleMsg}</textarea>
+        <div style="position:absolute;top: 190px;">
+            <h3>对战信息:</h3>
+            <textarea style="height: 240px;width: 400px" form="fight"
+                      readonly>$!{battleMsg}</textarea>
+        </div>
     </div>
 
 
@@ -146,7 +167,7 @@
     <div align="right" style="position: absolute ;top: 10%;right: 20px">
         <div>
             <h2>HP：$!{player2Hp}/100 <br>
-                <progress class="hpstyle"  value="$!{player2Hp}" max="100"></progress>
+                <progress class="hpstyle" value="$!{player2Hp}" max="100"></progress>
             </h2>
         </div>
         ########草系
@@ -238,13 +259,15 @@
 </form>
 
 <style>
+    .fightpmimg {
+        height: 110px;
+        width: 110px;
+    }
 
-
-    .hpstyle{
+    .hpstyle {
         background-color: #47801c;
         height: 25px;
         width: 360px;
-
 
     }
 

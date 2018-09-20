@@ -2,6 +2,7 @@ package com.buywhat.demo.controller.game;
 
 import com.buywhat.demo.bean.User;
 import com.buywhat.demo.bean.game.BattleInfo;
+import com.buywhat.demo.bean.game.Pokemon2;
 import com.buywhat.demo.bean.game.TeamGameRecord;
 import com.buywhat.demo.dao.Pokemon2Mapper;
 import com.buywhat.demo.dao.TeamGameRecordMapper;
@@ -272,6 +273,15 @@ public class TeamFightController {
 
         //放入战斗详情【文本】信息
         model.addAttribute("battleMsg", battleMsg);
+
+        //玩家和电脑各自出战的PM
+        Pokemon2 plPmFighting = pokemon2Mapper.selectByPrimaryKey(playerPmId);
+        Pokemon2 p2PmFighting = pokemon2Mapper.selectByPrimaryKey(comPmId);
+
+        //放入两个出战的精灵图片
+        model.addAttribute("plPmFighting",plPmFighting);
+        model.addAttribute("p2PmFighting",p2PmFighting);
+
 
         System.out.println(battleMsg);
 
