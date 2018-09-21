@@ -40,6 +40,15 @@ public class TeamFightController {
     }
 
 
+    @RequestMapping("setDifficulty")
+    public String setDifficulty(Model model, HttpSession session) {
+
+//        model.addAttribute("gameover", "你挂了,充钱立即复活");
+
+        return "setDifficulty.html";
+    }
+
+
     @RequestMapping("teamfight")
     public String toTeamFight(Model model, HttpSession session) {
         //初始化HP
@@ -48,20 +57,36 @@ public class TeamFightController {
         //将HP加入
         model.addAttribute("player1Hp", player1Hp);
         model.addAttribute("player2Hp", player2Hp);
-        //初始化 创建敌我各三只PM信息
-        Map pokeMap = service.findPmBeforeGame();
+//        //初始化 创建敌我各三只PM信息
+//        Map pokeMap = service.findPmBeforeGame();//方法暂时不用
 
-        //初始化我方三只
-        model.addAttribute("p1", pokemon2Mapper.selectByPrimaryKey(1));
-        model.addAttribute("p2", pokemon2Mapper.selectByPrimaryKey(4));
-        model.addAttribute("p3", pokemon2Mapper.selectByPrimaryKey(7));
+        initP1Pm(model,1,new Integer[]{1,4,7});
+        initP1Pm(model,2,new Integer[]{1,4,7});
 
-        //初始化敌方三只
-        model.addAttribute("p4", pokemon2Mapper.selectByPrimaryKey(1));
-        model.addAttribute("p5", pokemon2Mapper.selectByPrimaryKey(4));
-        model.addAttribute("p6", pokemon2Mapper.selectByPrimaryKey(8));
+
+//        //初始化敌方三只
+//        model.addAttribute("p4", pokemon2Mapper.selectByPrimaryKey(1));
+//        model.addAttribute("p5", pokemon2Mapper.selectByPrimaryKey(4));
+//        model.addAttribute("p6", pokemon2Mapper.selectByPrimaryKey(7));
 
         return "teamFight";
+    }
+
+    private void initP1Pm(Model model, Integer playerNumber, Integer[] pmIds) {
+        String[] pms = null;
+        if (playerNumber == 1) {
+            //Player1的三只Pm(位置代号,也是用于前端显示的Vo)
+            pms = new String[]{"p1", "p2", "p3"};
+        } else if (playerNumber == 2) {
+            //Player2的三只Pm(位置代号,也是用于前端显示的Vo)
+            pms = new String[]{"p4", "p5", "p6"};
+        }
+
+
+        //初始化我方三只
+        model.addAttribute(pms[0], pokemon2Mapper.selectByPrimaryKey(pmIds[0]));
+        model.addAttribute(pms[1], pokemon2Mapper.selectByPrimaryKey(pmIds[1]));
+        model.addAttribute(pms[2], pokemon2Mapper.selectByPrimaryKey(pmIds[2]));
     }
 
 
@@ -289,8 +314,8 @@ public class TeamFightController {
         model.addAttribute("p2PmFighting", p2PmFighting);
 
 
-        model.addAttribute("p1HurtInfo",p1HurtInfo);
-        model.addAttribute("p2HurtInfo",p2HurtInfo);
+        model.addAttribute("p1HurtInfo", p1HurtInfo);
+        model.addAttribute("p2HurtInfo", p2HurtInfo);
 
         System.out.println(battleMsg);
 
