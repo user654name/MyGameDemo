@@ -7,7 +7,6 @@ public class TeamGameRecord {
 
     private Integer userId;
 
-
     private String name;//玩家名字 根据ID查出来的
 
     private Double winRate;

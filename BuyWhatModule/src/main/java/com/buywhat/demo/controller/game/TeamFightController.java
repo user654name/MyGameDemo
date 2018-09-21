@@ -39,6 +39,14 @@ public class TeamFightController {
         return "gameover";
     }
 
+    @RequestMapping("aaaa")
+    public String toAaaa(Model model, HttpSession session) {
+
+//        model.addAttribute("gameover", "你挂了,充钱立即复活");
+
+        return "/test/aaaa";
+    }
+
 
     @RequestMapping("setDifficulty")
     public String setDifficulty(Model model, HttpSession session) {
@@ -48,7 +56,11 @@ public class TeamFightController {
         return "setDifficulty.html";
     }
 
-
+    /**
+     * @param model
+     * @param session
+     * @return
+     */
     @RequestMapping("teamfight")
     public String toTeamFight(Model model, HttpSession session) {
         //初始化HP
@@ -67,6 +79,13 @@ public class TeamFightController {
         return "teamFight";
     }
 
+    /**
+     * 在游戏前 初始化Pm的方法
+     *
+     * @param model        model
+     * @param playerNumber 初始化p1 还是p2
+     * @param pmIds        Pm的id集合
+     */
     private void initP1Pm(Model model, Integer playerNumber, Integer[] pmIds) {
         String[] pms = null;
         if (playerNumber == 1) {//准备初始化player1

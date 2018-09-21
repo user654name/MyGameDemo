@@ -41,6 +41,7 @@
         <!--<result column="name" property="name"/>-->
     </resultMap>
 
+
     <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
         select
         <include refid="Base_Column_List"/>

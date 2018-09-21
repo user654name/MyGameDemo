@@ -1,0 +1,27 @@
+#parse("header.html")
+<table class="table table-striped">
+    <caption>Top10</caption>
+    <thead>
+    <tr>
+        <th>排名</th>
+        <th>玩家</th>
+        <th>胜场</th>
+        <th>场次</th>
+        <th>最近游戏</th>
+    </tr>
+    </thead>
+    <tbody>
+    #if($top10Win)
+    #foreach($record in $top10Win)
+    <tr>
+        <td>$!{foreach.count}</td>
+        <td>$!{record.name}</td>
+        <td>$!{record.win}</td>
+        <td>$!{record.total}</td>
+        <td> $date.format('yyyy-MM-dd HH:mm:ss', $!{record.lastGameDate})</td>
+    </tr>
+    #end
+    #end
+    </tbody>
+</table>
+#parse("footer.html")
