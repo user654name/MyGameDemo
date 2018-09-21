@@ -34,14 +34,21 @@
 #########我方信息
 <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537329231869&di=183341a602429bafc5bfc40c5f3ce846&imgtype=0&src=http%3A%2F%2Fpic.k73.com%2Fup%2Fsoft%2F2016%2F0608%2F142454_28755504.jpg"
      style="z-index: -10;width: 100%" alt="back">
+
 <form id="fight" action="/teamfightgogogo" method="post">
     <div align="left" style="position: absolute ;top: 10%;left: 20px">
 
         #####HP信息
 
-        <div id="hp" style="position: absolute;left: 0px;top: 0px;">
+        <div id="hp">
             <h2>HP：$!{player1Hp}/100 <br>
-                <progress class="hpstyle" value="$!{player1Hp}" max="100"></progress>
+                <div class="progress progress-striped active">
+                    <div class="progress-bar progress-bar-success" role="progressbar"
+                         aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                         style="width: $!{player1Hp}%;">
+                        <span class="sr-only">40% 完成</span>
+                    </div>
+                </div>
             </h2>
         </div>
 
@@ -134,7 +141,13 @@
     <div align="right" style="position: absolute ;top: 10%;right: 20px">
         <div>
             <h2>HP：$!{player2Hp}/100 <br>
-                <progress class="hpstyle" value="$!{player2Hp}" max="100"></progress>
+                <div class="progress progress-striped active">
+                    <div class="progress-bar progress-bar-success" role="progressbar"
+                         aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                         style="width: $!{player2Hp}%;">
+                        <span class="sr-only">40% 完成</span>
+                    </div>
+                </div>
             </h2>
         </div>
         ########草系
@@ -239,26 +252,32 @@
     }
 
     .stylegrass {
+        height: 40px;
+        width: 130px;
         background-color: green;
         color: white;
         opacity: 0.85;
-        border-radius:25px;
+        border-radius: 25px;
         line-height: 40px;
     }
 
     .stylefire {
+        height: 40px;
+        width: 130px;
         background-color: orangered;
         color: white;
         opacity: 0.85;
-        border-radius:25px;
+        border-radius: 25px;
         line-height: 40px;
     }
 
     .stylewater {
+        height: 40px;
+        width: 130px;
         background-color: cornflowerblue;
         color: white;
         opacity: 0.85;
-        border-radius:25px;
+        border-radius: 25px;
         line-height: 40px;
     }
 
