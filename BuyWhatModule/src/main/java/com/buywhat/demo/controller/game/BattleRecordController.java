@@ -21,8 +21,8 @@ public class BattleRecordController {
         //根据胜场排名
         List<TeamGameRecord> top10WinList = mapper.selectTop10ByWin();
 
-        //根据场次排名
-//        List<TeamGameRecord> top10TotalList = mapper.selectTop10ByTotal();
+        //根据场次排名(玩家活跃度榜单)
+        List<TeamGameRecord> top10TotalList = mapper.selectTop10ByTotal();
 
 
         //根据胜率排名
@@ -34,7 +34,7 @@ public class BattleRecordController {
 //        model.addAttribute("top10WinRate", top10WinRateList);
 
 
-        return "test/aaaa";
+        return "test/showTop10Record";
     }
 
 

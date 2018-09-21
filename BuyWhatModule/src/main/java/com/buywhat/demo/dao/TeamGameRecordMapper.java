@@ -43,4 +43,11 @@ public interface TeamGameRecordMapper {
      * @return
      */
     List<TeamGameRecord> selectTop10ByWinRate();
+
+    /**
+     * 根据游戏场次 进行排名
+     *
+     * @return
+     */
+    List<TeamGameRecord> selectTop10ByTotal();
 }

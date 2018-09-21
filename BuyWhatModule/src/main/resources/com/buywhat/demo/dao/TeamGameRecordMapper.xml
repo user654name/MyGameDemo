@@ -9,6 +9,20 @@
     <!--List<TeamGameRecord> selectTop10ByWinRate();-->
 
 
+
+    <!--* 根据游戏场次 进行排名-->
+    <!--List<TeamGameRecord> selectTop10ByTotal();-->
+    <select id="selectTop10ByTotal" resultMap="BaseResultMap">
+        SELECT *
+            FROM teamgamerecord AS t
+            INNER JOIN usertable as u
+            On t.user_id = u.id
+        WHERE t.user_id NOT in (-1,-2)
+        ORDER BY total DESC
+    </select>
+
+
+
     <!--根据胜场查询排名（不能包括电脑和游客）2018年9月20日 23:07:11-->
     <!--List<TeamGameRecord> selectTop10ByWin();-->
     <select id="selectTop10ByWin" resultMap="BaseResultMap">
