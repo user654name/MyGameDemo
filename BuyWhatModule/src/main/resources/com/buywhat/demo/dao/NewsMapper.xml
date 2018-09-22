@@ -51,12 +51,12 @@
 
 
     <insert id="insert" parameterType="com.buywhat.demo.bean.News">
-    insert into newstable (id, title, link,
-    created_date, image, user_id,
-    like_count, comment_count)
-    values (#{id,jdbcType=INTEGER}, #{title,jdbcType=VARCHAR}, #{link,jdbcType=VARCHAR},
-    #{createdDate,jdbcType=TIMESTAMP}, #{image,jdbcType=VARCHAR}, #{userId,jdbcType=INTEGER},
-    NULL, NULL )
+        insert into newstable (id, title, link,
+        created_date, image, user_id,
+        like_count, comment_count)
+        values (#{id,jdbcType=INTEGER}, #{title,jdbcType=VARCHAR}, #{link,jdbcType=VARCHAR},
+        #{createdDate,jdbcType=TIMESTAMP}, #{image,jdbcType=VARCHAR}, #{userId,jdbcType=INTEGER},
+        NULL, #{commentCount,jdbcType=INTEGER} )
   </insert>
 
 
