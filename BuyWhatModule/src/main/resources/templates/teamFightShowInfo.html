@@ -1,14 +1,16 @@
 #########战斗信息
 
 
-<div style="position: absolute ;top: 20%;left: 35%;width: 400px">
-    <table style="position:absolute;border: #a6a8b1;opacity: 0.5" border="2" width="398" height="190">
+<div style="position: absolute ;top: 15%;left: 35%;width: 400px">
+    ##玩家信息
+
+    ##战斗边框
+    <table style="position:absolute;border: #a6a8b1;opacity: 0.5;" border="2" width="398" height="190">
         <tr>
             <td></td>
         </tr>
     </table>
-
-    ###出战精灵信息
+    ###出战精灵信息(关键信息标签显示)
     ##玩家1精灵
     #if(${plPmFighting})
     ##
@@ -72,7 +74,8 @@
     </div>
     #end
 
-    ##玩家信息
+
+
     <div style="position: absolute;left: 0px;top: 150px;">
         <button class="stylegrass"  onclick="choose1()">草系出战</button>
         <button class="stylefire"   onclick="choose2()">火系出战</button>
@@ -81,7 +84,7 @@
     ##
     <div style="position:absolute;top: 190px;">
         <h3>对战信息:</h3>
-        <textarea style="height: 240px;width: 400px"
+        <textarea style="height: 150px;width: 400px"
                   readonly>$!{battleMsg}</textarea>
     </div>
 </div>

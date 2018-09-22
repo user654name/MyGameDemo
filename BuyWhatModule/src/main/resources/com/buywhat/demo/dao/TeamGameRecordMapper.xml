@@ -6,8 +6,17 @@
     </sql>
 
     <!--根据游戏胜率进行排名-->
+    <!---->
     <!--List<TeamGameRecord> selectTop10ByWinRate();-->
-
+    <select id="selectTop10ByWinRate" resultMap="BaseResultMap">
+          SELECT `name`,`win`,`total`,`win`/`total`*100 as `winrate`
+              FROM teamgamerecord AS t
+              INNER JOIN usertable as u
+          On t.user_id = u.id
+          WHERE total > 4
+      ORDER BY `winrate` DESC
+      limit 10
+    </select>
 
 
     <!--* 根据游戏场次 进行排名-->
@@ -19,7 +28,8 @@
             On t.user_id = u.id
         WHERE t.user_id NOT in (-1,-2)
         ORDER BY total DESC
-    </select>
+        limit 10
+</select>
 
 
 
@@ -32,7 +42,8 @@
             On t.user_id = u.id
         WHERE t.user_id NOT in (-1,-2)
         ORDER BY win DESC
-    </select>
+        limit 10
+</select>
 
 
     <!--TeamGameRecord selectByUserId(Integer playerId);-->

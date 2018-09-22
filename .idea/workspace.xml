@@ -11,8 +11,16 @@
   <component name="ChangeListManager">
     <list default="true" id="89e54438-5bfc-4f71-a266-828621f62f1d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/NewsMapper.xml" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/NewsMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/game/TeamGameRecord.java" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/game/TeamGameRecord.java" />
+      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/BattleRecordController.java" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/BattleRecordController.java" />
+      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java" />
+      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/TeamGameRecordMapper.xml" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/TeamGameRecordMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/gameover.html" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/gameover.html" />
       <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/home.html" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/home.html" />
+      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/payForGame.html" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/pay/payForGame.html" />
+      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamFight.html" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamFight.html" />
+      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamFightShowInfo.html" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamFightShowInfo.html" />
+      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/test/showTop10Record.html" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/test/showTop10Record.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/BuyWhatModule/target/" />
@@ -33,44 +41,64 @@
       <favorite_root url="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/BattleRecordController.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
       <favorite_root url="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/test/showTop10Record.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
       <favorite_root url="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/test/aaaa.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
     </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="InvocableHandlerMethod.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.6.RELEASE/spring-web-4.2.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <file leaf-file-name="BattleRecordController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/BattleRecordController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3105">
-              <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+            <state relative-caret-position="675">
+              <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teamFightShowInfo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamFightShowInfo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2322">
+              <caret line="86" column="35" lean-forward="false" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
               <folding>
-                <marker date="1514258845933" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1514258845933" expanded="false" signature="162:720" ph="..." />
-                <marker date="1514258845933" expanded="false" signature="1114:1125" ph=" { " />
-                <marker date="1514258845933" expanded="false" signature="1146:1152" ph=" }" />
-                <marker date="1514258845933" expanded="false" signature="1215:1226" ph=" { " />
-                <marker date="1514258845933" expanded="false" signature="1246:1252" ph=" }" />
-                <marker date="1514258845933" expanded="true" signature="1374:1430" ph="{...}" />
-                <marker date="1514258845933" expanded="true" signature="1509:1568" ph="{...}" />
-                <marker date="1514258845933" expanded="true" signature="1678:1737" ph="{...}" />
-                <marker date="1514258845933" expanded="true" signature="1831:1902" ph="{...}" />
-                <marker date="1514258845933" expanded="true" signature="2042:2748" ph="{...}" />
-                <marker date="1514258845933" expanded="true" signature="2898:4250" ph="{...}" />
-                <marker date="1514258845933" expanded="true" signature="4332:4558" ph="{...}" />
-                <marker date="1514258845933" expanded="true" signature="4621:4957" ph="{...}" />
-                <marker date="1514258845933" expanded="true" signature="5053:5511" ph="{...}" />
-                <marker date="1514258845933" expanded="true" signature="5576:6740" ph="{...}" />
-                <marker date="1514258845933" expanded="true" signature="6825:7427" ph="{...}" />
-                <marker date="1514258845933" expanded="true" signature="7513:8087" ph="{...}" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showTop10Record.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/test/showTop10Record.html">
+      <file leaf-file-name="teamFight.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamFight.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2430">
-              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="146" column="52" lean-forward="true" selection-start-line="146" selection-start-column="52" selection-end-line="146" selection-end-column="52" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#h3#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#div#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#form#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeamGameRecord.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/game/TeamGameRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payForGame.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/pay/payForGame.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -79,99 +107,19 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-405">
-              <caret line="56" column="14" lean-forward="false" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="payForGame.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/payForGame.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="51" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="75" />
+            <state relative-caret-position="675">
+              <caret line="25" column="64" lean-forward="false" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/MessageMapper.xml">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-              <folding>
-                <marker date="1537189652008" expanded="true" signature="346:421" ph="select * FRO... messagetable" />
-                <marker date="1537189652008" expanded="true" signature="558:992" ph="SELECT * FRO... *" />
-                <marker date="1537189652008" expanded="true" signature="595:825" ph="SELECT * FRO... messagetable" />
-                <marker date="1537189652008" expanded="true" signature="655:738" ph="SELECT max(c... messagetable" />
-                <marker date="1537189652008" expanded="true" signature="1261:1378" ph="SELECT count... messagetable" />
-                <marker date="1537189652008" expanded="true" signature="1627:1720" ph="SELECT count... messagetable" />
-                <marker date="1537189652008" expanded="true" signature="2567:2685" ph="select from messagetable" />
-                <marker date="1537189652008" expanded="true" signature="2777:2839" ph="delete from messagetable... " />
-                <marker date="1537189652008" expanded="true" signature="2929:3271" ph="insert into messagetable... " />
-                <marker date="1537189652008" expanded="true" signature="4985:5781" ph="update messagetable... " />
-                <marker date="1537189652008" expanded="true" signature="5885:6234" ph="update messagetable... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/NewsMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="58" column="46" lean-forward="false" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
-              <folding>
-                <marker date="1537578793016" expanded="true" signature="300:1193" ph="update newstable... " />
-                <marker date="1537578793016" expanded="true" signature="2078:2430" ph="insert into newstable... " />
-                <marker date="1537578793016" expanded="true" signature="2542:2666" ph="SELECT FROM newstable" />
-                <marker date="1537578793016" expanded="true" signature="2788:2903" ph="select from newstable" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/NewsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="65" column="36" lean-forward="false" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+            <state relative-caret-position="502">
+              <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/MyServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="97" column="19" lean-forward="false" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
-              <folding>
-                <element signature="e#2391#2392#0" expanded="true" />
-                <element signature="e#2437#2438#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/CommentMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="22" />
-              <folding>
-                <marker date="1537022721256" expanded="true" signature="336:411" ph="SELECT COUNT... commenttable" />
-                <marker date="1537022721256" expanded="true" signature="506:735" ph="insert into commenttable... " />
-                <marker date="1537022721256" expanded="true" signature="879:989" ph="SELECT FROM commenttable" />
-                <marker date="1537022721256" expanded="true" signature="1097:1358" ph="update commenttable... " />
-                <marker date="1537022721256" expanded="true" signature="3227:3345" ph="select from commenttable" />
-                <marker date="1537022721256" expanded="true" signature="3437:3499" ph="delete from commenttable... " />
-                <marker date="1537022721256" expanded="true" signature="3614:4167" ph="update commenttable... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -200,11 +148,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>100\</find>
-      <find>100</find>
-      <find>input</find>
-      <find>ajax</find>
-      <find>leftHit</find>
       <find>teamfight</find>
       <find>sub</find>
       <find>player1I</find>
@@ -212,7 +155,6 @@
       <find>getElementById</find>
       <find>想</find>
       <find>出战</find>
-      <find>hp</find>
       <find>gameover</find>
       <find>p1HurtInfo</find>
       <find>GOOD!</find>
@@ -230,6 +172,12 @@
       <find>updateByPrimaryKeySelective</find>
       <find>insert</find>
       <find>comment_count</find>
+      <find>160px</find>
+      <find>hp</find>
+      <find>240</find>
+      <find>size=&quot;5&quot;</find>
+      <find>width: 30px;height: 30px</find>
+      <find>&lt;font size=&quot;5&quot;&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>User</replace>
@@ -238,6 +186,9 @@
       <replace>160px</replace>
       <replace>pmchoosed</replace>
       <replace>chooseId</replace>
+      <replace>size=&quot;4&quot;</replace>
+      <replace>width: 24px;height: 24px</replace>
+      <replace>&lt;font size=&quot;4&quot;&gt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -255,7 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/letterDetail.html" />
         <option value="$PROJECT_DIR$/BuyWhatModule/text.txt" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/utils/CookieHelper.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/utils/CookieHandler.java" />
@@ -284,28 +234,29 @@
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/game/HurtInfo.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/simpleTeamFight.html" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/GameServiceImpl.java" />
-        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/gameover.html" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/mails/Top10.html" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/test/java/com/buywhat/demo/GameTest.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/setDifficulty.html" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamgame/setDifficulty.html" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/static/styles/div.css" />
-        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamFightShowInfo.html" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/static/styles/style.css" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/bootstrap/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/header.html" />
-        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamFight.html" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/static/login.html" />
-        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/test/aaaa.vm" />
-        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/game/TeamGameRecord.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/dao/TeamGameRecordMapper.java" />
-        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/TeamGameRecordMapper.xml" />
-        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/BattleRecordController.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/test/aaaa.html" />
-        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/test/showTop10Record.html" />
-        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/home.html" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/NewsMapper.xml" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/gameover.html" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/pay/payForGame.html" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/BattleRecordController.java" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/game/TeamGameRecord.java" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/TeamGameRecordMapper.xml" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/test/showTop10Record.html" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamFightShowInfo.html" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamFight.html" />
       </list>
     </option>
   </component>
@@ -437,29 +388,6 @@
               <item name="BuyWhatModule" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="buywhat" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0912BuyWhat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuyWhatModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="buywhat" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0912BuyWhat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuyWhatModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -533,7 +461,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="0912BuyWhat" type="b2602c69:ProjectViewProjectNode" />
@@ -542,6 +471,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="0912BuyWhat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuyWhatModule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="pay" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="0912BuyWhat" type="b2602c69:ProjectViewProjectNode" />
@@ -589,9 +527,12 @@
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.buywhat.demo.service" />
-      <recent name="com.buywhat.demo.bean" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources\templates\pay" />
+      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources\templates\test" />
+      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources\static" />
+      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources" />
+      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources\templates\teamgame" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.buywhat.demo" />
@@ -611,12 +552,9 @@
       <recent name="com.buywhat.demo.bean" />
       <recent name="com.buywhat.demo.bean.Game" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources\templates\test" />
-      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources\static" />
-      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources" />
-      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources\templates\teamgame" />
-      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources\templates" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.buywhat.demo.service" />
+      <recent name="com.buywhat.demo.bean" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -895,7 +833,7 @@
       <workItem from="1537432416603" duration="26350000" />
       <workItem from="1537491155085" duration="25485000" />
       <workItem from="1537535487688" duration="4566000" />
-      <workItem from="1537578302593" duration="681000" />
+      <workItem from="1537578302593" duration="8896000" />
     </task>
     <task id="LOCAL-00001" summary="yeah">
       <created>1537186385784</created>
@@ -1142,7 +1080,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537539312562</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="修复新的新闻评论数目为0的bug（因为XML文件里将那一列设置了NULL）">
+      <created>1537579041710</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1537579041710</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1178,7 +1123,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321335000" />
+    <option name="totallyTimeSpent" value="329550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="251" y="-9" width="1678" height="1098" extended-state="6" />
@@ -1193,7 +1138,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16439791" sideWeight="0.49759036" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23979057" sideWeight="0.49759036" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1204,13 +1149,13 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45759162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25301206" sideWeight="0.67329544" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25301206" sideWeight="0.6666667" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25301206" sideWeight="0.32670453" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25301206" sideWeight="0.33333334" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1264,7 +1209,6 @@
     <ignored-roots>
       <path value="D:\Users\Administrator\0912BuyWhat\NewsWeb" />
     </ignored-roots>
-    <MESSAGE value="3对3团战的页面 改善战斗消息 修复PM属性获取错误BUG" />
     <MESSAGE value="3对3团战的页面 修复部分bug" />
     <MESSAGE value="3对3团战的页面 修改了背景图片和对战结果页的背景图片" />
     <MESSAGE value="3对3团战的 优化了对战界面" />
@@ -1289,19 +1233,12 @@
     <MESSAGE value="添加BootStrap资源 更新3v3进度条样式 修复前端显示错乱的小问题" />
     <MESSAGE value="【功能】已经可以显示战绩（胜场）总排行啦" />
     <MESSAGE value="更新胜率榜单的显示问题【完成度40%】" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新胜率榜单的显示问题【完成度40%】" />
+    <MESSAGE value="修复新的新闻评论数目为0的bug（因为XML文件里将那一列设置了NULL）" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复新的新闻评论数目为0的bug（因为XML文件里将那一列设置了NULL）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/UserController.java</url>
-          <line>83</line>
-          <properties class="com.buywhat.demo.controller.UserController" method="changeHeadImg">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/BuyWhatModule/src/test/java/com/buywhat/demo/GameTest.java</url>
           <line>44</line>
@@ -1311,18 +1248,11 @@
           <option name="timeStamp" value="80" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="111" />
+      <option name="time" value="112" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.0.33/tomcat-embed-core-8.0.33.jar!/org/apache/catalina/authenticator/AuthenticatorBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="300" column="0" lean-forward="false" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.0.33/tomcat-embed-core-8.0.33.jar!/org/apache/catalina/core/StandardContextValve.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
@@ -1401,13 +1331,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/simpleTeamFight.html" />
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/gameover.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/GameServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -1494,6 +1417,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-291">
           <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1511,13 +1435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamFightShowInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="78" column="27" lean-forward="false" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/static/styles/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
@@ -1529,13 +1446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamFight.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="304" column="0" lean-forward="false" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1567,18 +1477,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="618">
           <caret line="147" column="1" lean-forward="false" selection-start-line="147" selection-start-column="1" selection-end-line="147" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="method#initP1Pm#0;class#TeamFightController#0" expanded="false" />
-            <element signature="method#doTeamFight#0;class#TeamFightController#0" expanded="false" />
-            <element signature="method#updateRecord#0;class#TeamFightController#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1604,56 +1503,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/game/TeamGameRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#366#367#0" expanded="false" />
-            <element signature="e#396#397#0" expanded="false" />
-            <element signature="e#442#443#0" expanded="false" />
-            <element signature="e#480#481#0" expanded="false" />
-            <element signature="e#511#512#0" expanded="false" />
-            <element signature="e#538#539#0" expanded="false" />
-            <element signature="e#578#579#0" expanded="false" />
-            <element signature="e#610#611#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/TeamGameRecordMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <marker date="1537535785259" expanded="true" signature="550:732" ph="SELECT * FRO... teamgamerecord" />
-            <marker date="1537535785259" expanded="true" signature="921:1101" ph="SELECT * FRO... teamgamerecord" />
-            <marker date="1537535785259" expanded="true" signature="1279:1388" ph="SELECT FROM teamgamerecord" />
-            <marker date="1537535785259" expanded="true" signature="1279:1404" ph="SELECT FROM teamgamerecord" />
-            <marker date="1537535785259" expanded="true" signature="2125:2245" ph="select from teamgamerecord" />
-            <marker date="1537535785259" expanded="true" signature="2335:2399" ph="delete from teamgamerecord... " />
-            <marker date="1537535785259" expanded="true" signature="2499:2801" ph="insert into teamgamerecord... " />
-            <marker date="1537535785259" expanded="true" signature="4341:5019" ph="update teamgamerecord... " />
-            <marker date="1537535785259" expanded="true" signature="5133:5435" ph="update teamgamerecord... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/dao/TeamGameRecordMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1188">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/BattleRecordController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1665,63 +1519,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/test/aaaa.html">
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/CommentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.6.RELEASE/spring-web-4.2.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3105">
-          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+        <state relative-caret-position="351">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="22" />
           <folding>
-            <marker date="1514258845933" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1514258845933" expanded="false" signature="162:720" ph="..." />
-            <marker date="1514258845933" expanded="false" signature="1114:1125" ph=" { " />
-            <marker date="1514258845933" expanded="false" signature="1146:1152" ph=" }" />
-            <marker date="1514258845933" expanded="false" signature="1215:1226" ph=" { " />
-            <marker date="1514258845933" expanded="false" signature="1246:1252" ph=" }" />
-            <marker date="1514258845933" expanded="true" signature="1374:1430" ph="{...}" />
-            <marker date="1514258845933" expanded="true" signature="1509:1568" ph="{...}" />
-            <marker date="1514258845933" expanded="true" signature="1678:1737" ph="{...}" />
-            <marker date="1514258845933" expanded="true" signature="1831:1902" ph="{...}" />
-            <marker date="1514258845933" expanded="true" signature="2042:2748" ph="{...}" />
-            <marker date="1514258845933" expanded="true" signature="2898:4250" ph="{...}" />
-            <marker date="1514258845933" expanded="true" signature="4332:4558" ph="{...}" />
-            <marker date="1514258845933" expanded="true" signature="4621:4957" ph="{...}" />
-            <marker date="1514258845933" expanded="true" signature="5053:5511" ph="{...}" />
-            <marker date="1514258845933" expanded="true" signature="5576:6740" ph="{...}" />
-            <marker date="1514258845933" expanded="true" signature="6825:7427" ph="{...}" />
-            <marker date="1514258845933" expanded="true" signature="7513:8087" ph="{...}" />
+            <marker date="1537022721256" expanded="true" signature="336:411" ph="SELECT COUNT... commenttable" />
+            <marker date="1537022721256" expanded="true" signature="506:735" ph="insert into commenttable... " />
+            <marker date="1537022721256" expanded="true" signature="879:989" ph="SELECT FROM commenttable" />
+            <marker date="1537022721256" expanded="true" signature="1097:1358" ph="update commenttable... " />
+            <marker date="1537022721256" expanded="true" signature="3227:3345" ph="select from commenttable" />
+            <marker date="1537022721256" expanded="true" signature="3437:3499" ph="delete from commenttable... " />
+            <marker date="1537022721256" expanded="true" signature="3614:4167" ph="update commenttable... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/test/showTop10Record.html">
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/NewsMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="56" column="14" lean-forward="false" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+        <state relative-caret-position="1782">
+          <caret line="66" column="22" lean-forward="true" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <marker date="1537578793016" expanded="true" signature="300:1193" ph="update newstable... " />
+            <marker date="1537578793016" expanded="true" signature="2078:2430" ph="insert into newstable... " />
+            <marker date="1537578793016" expanded="true" signature="2542:2666" ph="SELECT FROM newstable" />
+            <marker date="1537578793016" expanded="true" signature="2788:2903" ph="select from newstable" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/payForGame.html">
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/NewsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="51" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="75" />
+        <state relative-caret-position="351">
+          <caret line="65" column="36" lean-forward="false" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1746,22 +1576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/CommentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <marker date="1537022721256" expanded="true" signature="336:411" ph="SELECT COUNT... commenttable" />
-            <marker date="1537022721256" expanded="true" signature="506:735" ph="insert into commenttable... " />
-            <marker date="1537022721256" expanded="true" signature="879:989" ph="SELECT FROM commenttable" />
-            <marker date="1537022721256" expanded="true" signature="1097:1358" ph="update commenttable... " />
-            <marker date="1537022721256" expanded="true" signature="3227:3345" ph="select from commenttable" />
-            <marker date="1537022721256" expanded="true" signature="3437:3499" ph="delete from commenttable... " />
-            <marker date="1537022721256" expanded="true" signature="3614:4167" ph="update commenttable... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/MyServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -1773,23 +1587,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/NewsController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.6.RELEASE/spring-web-4.2.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="65" column="36" lean-forward="false" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+        <state relative-caret-position="0">
+          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding>
+            <marker date="1514258845933" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1514258845933" expanded="false" signature="162:720" ph="..." />
+            <marker date="1514258845933" expanded="false" signature="1114:1125" ph=" { " />
+            <marker date="1514258845933" expanded="false" signature="1146:1152" ph=" }" />
+            <marker date="1514258845933" expanded="false" signature="1215:1226" ph=" { " />
+            <marker date="1514258845933" expanded="false" signature="1246:1252" ph=" }" />
+            <marker date="1514258845933" expanded="true" signature="1374:1430" ph="{...}" />
+            <marker date="1514258845933" expanded="true" signature="1509:1568" ph="{...}" />
+            <marker date="1514258845933" expanded="true" signature="1678:1737" ph="{...}" />
+            <marker date="1514258845933" expanded="true" signature="1831:1902" ph="{...}" />
+            <marker date="1514258845933" expanded="true" signature="2042:2748" ph="{...}" />
+            <marker date="1514258845933" expanded="true" signature="2898:4250" ph="{...}" />
+            <marker date="1514258845933" expanded="true" signature="4332:4558" ph="{...}" />
+            <marker date="1514258845933" expanded="true" signature="4621:4957" ph="{...}" />
+            <marker date="1514258845933" expanded="true" signature="5053:5511" ph="{...}" />
+            <marker date="1514258845933" expanded="true" signature="5576:6740" ph="{...}" />
+            <marker date="1514258845933" expanded="true" signature="6825:7427" ph="{...}" />
+            <marker date="1514258845933" expanded="true" signature="7513:8087" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/gameover.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="64" lean-forward="false" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#h1#0;n#button#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#h1#0;n#button#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#h1#0;n#button#2;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="191" column="0" lean-forward="true" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+          <folding>
+            <element signature="method#initP1Pm#0;class#TeamFightController#0" expanded="false" />
+            <element signature="method#updateRecord#0;class#TeamFightController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/test/aaaa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/NewsMapper.xml">
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/pay/payForGame.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="58" column="46" lean-forward="false" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="64" lean-forward="false" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/TeamGameRecordMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding>
-            <marker date="1537578793016" expanded="true" signature="300:1193" ph="update newstable... " />
-            <marker date="1537578793016" expanded="true" signature="2078:2430" ph="insert into newstable... " />
-            <marker date="1537578793016" expanded="true" signature="2542:2666" ph="SELECT FROM newstable" />
-            <marker date="1537578793016" expanded="true" signature="2788:2903" ph="select from newstable" />
+            <marker date="1537582755958" expanded="true" signature="484:722" ph="SELECT `name... teamgamerecord" />
+            <marker date="1537582755958" expanded="true" signature="889:1071" ph="SELECT * FRO... teamgamerecord" />
+            <marker date="1537582755958" expanded="true" signature="889:1088" ph="SELECT * FRO... teamgamerecord" />
+            <marker date="1537582755958" expanded="true" signature="1273:1453" ph="SELECT * FRO... teamgamerecord" />
+            <marker date="1537582755958" expanded="true" signature="1273:1470" ph="SELECT * FRO... teamgamerecord" />
+            <marker date="1537582755958" expanded="true" signature="1644:1753" ph="SELECT FROM teamgamerecord" />
+            <marker date="1537582755958" expanded="true" signature="1644:1769" ph="SELECT FROM teamgamerecord" />
+            <marker date="1537582755958" expanded="true" signature="2490:2610" ph="select from teamgamerecord" />
+            <marker date="1537582755958" expanded="true" signature="2700:2764" ph="delete from teamgamerecord... " />
+            <marker date="1537582755958" expanded="true" signature="2864:3166" ph="insert into teamgamerecord... " />
+            <marker date="1537582755958" expanded="true" signature="4706:5384" ph="update teamgamerecord... " />
+            <marker date="1537582755958" expanded="true" signature="5498:5800" ph="update teamgamerecord... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/game/TeamGameRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/test/showTop10Record.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="151" column="33" lean-forward="false" selection-start-line="151" selection-start-column="33" selection-end-line="151" selection-end-column="58" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/BattleRecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamFightShowInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2322">
+          <caret line="86" column="35" lean-forward="false" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamFight.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="146" column="52" lean-forward="true" selection-start-line="146" selection-start-column="52" selection-end-line="146" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#h3#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

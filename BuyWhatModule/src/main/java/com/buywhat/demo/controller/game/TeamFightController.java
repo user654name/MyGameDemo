@@ -39,12 +39,12 @@ public class TeamFightController {
         return "gameover";
     }
 
-    @RequestMapping("aaaa")
-    public String toAaaa(Model model, HttpSession session) {
+    @RequestMapping("payForGame")
+    public String toPayForGame(Model model, HttpSession session) {
 
 //        model.addAttribute("gameover", "你挂了,充钱立即复活");
 
-        return "/test/aaaa";
+        return "/pay/payForGame";
     }
 
 
@@ -53,7 +53,7 @@ public class TeamFightController {
 
 //        model.addAttribute("gameover", "你挂了,充钱立即复活");
 
-        return "setDifficulty.html";
+        return "setDifficulty";
     }
 
     /**

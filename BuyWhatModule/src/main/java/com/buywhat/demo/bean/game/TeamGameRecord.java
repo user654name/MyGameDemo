@@ -9,7 +9,7 @@ public class TeamGameRecord {
 
     private String name;//玩家名字 根据ID查出来的
 
-    private Double winRate;
+    private Integer winRate;
 
     private Integer win;
 
@@ -20,11 +20,11 @@ public class TeamGameRecord {
     private Date lastGameDate;
 
 
-    public Double getWinRate() {
+    public Integer getWinRate() {
         return winRate;
     }
 
-    public void setWinRate(Double winRate) {
+    public void setWinRate(Integer winRate) {
         this.winRate = winRate;
     }
 
