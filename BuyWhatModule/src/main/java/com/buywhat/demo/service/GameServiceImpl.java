@@ -224,7 +224,7 @@ public class GameServiceImpl implements GameService {
                 p1HurtInfo.setColor2(goodColor);
 
 
-                if (comHurt == -10) {
+                if (comHurt <= -10) {
                     p2HurtInfo.setInfo1("重伤");
                 } else {
                     p2HurtInfo.setInfo1("轻伤");
@@ -244,7 +244,7 @@ public class GameServiceImpl implements GameService {
                 p2HurtInfo.setColor2(goodColor);
 
 
-                if (playerHurt == -10) {
+                if (playerHurt <= -10) {
                     p1HurtInfo.setInfo1("重伤");
                 } else {
                     p1HurtInfo.setInfo1("轻伤");

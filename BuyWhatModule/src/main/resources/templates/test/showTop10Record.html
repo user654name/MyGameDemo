@@ -6,7 +6,9 @@
     <div class="row clearfix">
         <div class="col-md-12 column">
             <h2>
-                Top Players of Pokemon Game
+                Top Players of Pokemon Game &nbsp;&nbsp;
+                <small><a href="/teamfight">[Play Now]</a></small>
+                <small><a href="/">[Back To Home]</a></small>
             </h2>
         </div>
     </div>
@@ -133,7 +135,7 @@
                 </thead>
                 <tbody>
                 #if($top10Win)
-                #foreach($record in $top10Win)
+                #foreach($record in $top10Total)
                 <tr>
                     <td>$!{foreach.count}</td>
                     <td>$!{record.name}</td>

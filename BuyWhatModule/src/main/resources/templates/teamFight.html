@@ -14,6 +14,8 @@
         document.getElementById("radio3").checked = true
     }
 
+    javascript:window.history.forward(10);
+
 
     // $.ajax({
     //     type: "post",
@@ -35,7 +37,7 @@
 <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537329231869&di=183341a602429bafc5bfc40c5f3ce846&imgtype=0&src=http%3A%2F%2Fpic.k73.com%2Fup%2Fsoft%2F2016%2F0608%2F142454_28755504.jpg"
      style="z-index: -10;width: 100%" alt="back">
 
-<form id="fight" action="/teamfightgogogo" method="post">
+<form id="fight" action="/teamfighting" method="post">
     <div align="left" style="position: absolute ;top: 10%;left: 10%">
 
         #####HP信息
@@ -230,8 +232,8 @@
     <input form="fight" type="hidden" name="p4Id" value="$!{p4.id}">
     <input form="fight" type="hidden" name="p5Id" value="$!{p5.id}">
     <input form="fight" type="hidden" name="p6Id" value="$!{p6.id}">
-    <input form="fight" type="hidden" name="player1Hp" value="$!{player1Hp}">
-    <input form="fight" type="hidden" name="player2Hp" value="$!{player2Hp}">
+    <input id="p1Hp" form="fight" type="hidden" name="player1Hp" value="$!{player1Hp}">
+    <input id="p2Hp" form="fight" type="hidden" name="player2Hp" value="$!{player2Hp}">
     <input form="fight" type="hidden" name="battleMsg" value="$!{battleMsg}">
     <input form="fight" type="hidden" name="leftHit" value="25">##伤害信息
     <input form="fight" type="hidden" name="rightHit" value="25">##伤害信息
