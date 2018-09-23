@@ -71,12 +71,10 @@ public class TeamFightController {
         model.addAttribute("player1Hp", player1Hp);
         model.addAttribute("player2Hp", player2Hp);
 
-
         /* 初始化 创建敌我各三只PM信息
            playerNumber==1代表player1
            playerNumber==2代表player2 */
         initP1Pm(model, 1, new Integer[]{1, 4, 7});
-
 
         initP1Pm(model, 2, new Integer[]{1, 4, 7});
 
