@@ -13,6 +13,12 @@ import java.util.Map;
 @Controller
 public class LikeController {
 
+    /**
+     * 用户对消息点赞
+     * @param newsId 消息id
+     * @param session 用户身份
+     * @return Json数据 （赞的数目）
+     */
     @RequestMapping("like")
     @ResponseBody
     public Map addLike(String newsId, HttpSession session) {

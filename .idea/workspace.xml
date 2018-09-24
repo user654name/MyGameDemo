@@ -6,13 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/MyServiceImpl.java" line="74" />
+    <bookmark url="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/MyServiceImpl.java" line="75" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e54438-5bfc-4f71-a266-828621f62f1d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/LikeController.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java" />
+      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/LikeController.java" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/LikeController.java" />
+      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/MyServiceImpl.java" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/MyServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/BuyWhatModule/target/" />
@@ -41,18 +41,30 @@
       <file leaf-file-name="CommentController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/CommentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="567">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="method#addComment#0;class#CommentController#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LikeController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LikeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/LikeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="82" column="30" lean-forward="false" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+            <state relative-caret-position="-1222">
+              <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,15 +75,40 @@
       <file leaf-file-name="NewsController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/NewsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+            <state relative-caret-position="243">
+              <caret line="31" column="91" lean-forward="false" selection-start-line="31" selection-start-column="91" selection-end-line="31" selection-end-column="91" />
               <folding>
                 <element signature="method#showNews#0;class#NewsController#0" expanded="false" />
-                <element signature="e#1423#1454#0" expanded="false" />
                 <element signature="method#addNews#0;class#NewsController#0" expanded="false" />
-                <element signature="e#2306#2336#0" expanded="false" />
                 <element signature="method#uploadImage#0;class#NewsController#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1103">
+              <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <folding>
+                <element signature="method#personalPage#0;class#UserController#0" expanded="false" />
+                <element signature="docComment;method#changeHeadImg#0;class#UserController#0" expanded="false" />
+                <element signature="method#changeHeadImg#0;class#UserController#0" expanded="false" />
+                <element signature="docComment;method#loginModel#0;class#UserController#0" expanded="false" />
+                <element signature="e#2963#2987#0" expanded="false" />
+                <element signature="method#loginModel#0;class#UserController#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/MyServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="119" column="58" lean-forward="false" selection-start-line="119" selection-start-column="58" selection-end-line="119" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -169,7 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/fight.html" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/FightController.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/Game/Pokemon.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/Pokemon2.java" />
@@ -217,9 +253,10 @@
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamgame/setDifficulty.html" />
         <option value="$PROJECT_DIR$/BuyWhatModule/pom.xml" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/test/java/com/buywhat/demo/RedisTest.java" />
-        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/NewsController.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/LikeController.java" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/NewsController.java" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/MyServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -794,7 +831,7 @@
       <workItem from="1537578302593" duration="18403000" />
       <workItem from="1537604560982" duration="2576000" />
       <workItem from="1537680991409" duration="8092000" />
-      <workItem from="1537752776151" duration="11069000" />
+      <workItem from="1537752776151" duration="11518000" />
     </task>
     <task id="LOCAL-00001" summary="yeah">
       <created>1537186385784</created>
@@ -1083,7 +1120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537752825875</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="搞定了点赞和取消点赞的功能 还差显示赞数没有弄完">
+      <created>1537779401614</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1537779401614</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1119,7 +1163,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="360794000" />
+    <option name="totallyTimeSpent" value="361243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="251" y="-9" width="1678" height="1098" extended-state="6" />
@@ -1145,7 +1189,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45759162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25301206" sideWeight="0.66621983" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25301206" sideWeight="0.66621983" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1205,7 +1249,6 @@
     <ignored-roots>
       <path value="D:\Users\Administrator\0912BuyWhat\NewsWeb" />
     </ignored-roots>
-    <MESSAGE value="3对3团战的 修改了Controller初始化PM的逻辑" />
     <MESSAGE value="测试一下" />
     <MESSAGE value="测试" />
     <MESSAGE value="保密" />
@@ -1230,7 +1273,8 @@
     <MESSAGE value="日常提交 没什么大改动" />
     <MESSAGE value="更新了一下redis配置 写了个小的测试单元 redis的环境已经搭好 之后就差业务实现咯" />
     <MESSAGE value="redisTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="redisTest" />
+    <MESSAGE value="搞定了点赞和取消点赞的功能 还差显示赞数没有弄完" />
+    <option name="LAST_COMMIT_MESSAGE" value="搞定了点赞和取消点赞的功能 还差显示赞数没有弄完" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1243,8 +1287,24 @@
           </properties>
           <option name="timeStamp" value="80" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/UserController.java</url>
+          <line>83</line>
+          <properties class="com.buywhat.demo.controller.UserController" method="changeHeadImg">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/CommentController.java</url>
+          <line>30</line>
+          <properties class="com.buywhat.demo.controller.CommentController" method="addComment">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="118" />
+      <option name="time" value="120" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1281,14 +1341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-453">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,17 +1391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
           <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/MyServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="97" column="19" lean-forward="false" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
-          <folding>
-            <element signature="e#2391#2392#0" expanded="false" />
-            <element signature="e#2437#2438#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1561,22 +1602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -1613,20 +1638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/NewsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding>
-            <element signature="method#showNews#0;class#NewsController#0" expanded="false" />
-            <element signature="e#1423#1454#0" expanded="false" />
-            <element signature="method#addNews#0;class#NewsController#0" expanded="false" />
-            <element signature="e#2306#2336#0" expanded="false" />
-            <element signature="method#uploadImage#0;class#NewsController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/MessageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-918">
@@ -1645,11 +1656,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/LikeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="82" column="30" lean-forward="false" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+        <state relative-caret-position="-1222">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/NewsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="31" column="91" lean-forward="false" selection-start-line="31" selection-start-column="91" selection-end-line="31" selection-end-column="91" />
+          <folding>
+            <element signature="method#showNews#0;class#NewsController#0" expanded="false" />
+            <element signature="method#addNews#0;class#NewsController#0" expanded="false" />
+            <element signature="method#uploadImage#0;class#NewsController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1103">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding>
+            <element signature="method#personalPage#0;class#UserController#0" expanded="false" />
+            <element signature="docComment;method#changeHeadImg#0;class#UserController#0" expanded="false" />
+            <element signature="method#changeHeadImg#0;class#UserController#0" expanded="false" />
+            <element signature="docComment;method#loginModel#0;class#UserController#0" expanded="false" />
+            <element signature="e#2963#2987#0" expanded="false" />
+            <element signature="method#loginModel#0;class#UserController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="method#addComment#0;class#CommentController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/MyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="119" column="58" lean-forward="false" selection-start-line="119" selection-start-column="58" selection-end-line="119" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>

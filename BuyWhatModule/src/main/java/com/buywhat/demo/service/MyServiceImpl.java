@@ -13,6 +13,7 @@ import com.buywhat.demo.dao.UserMapper;
 import com.sun.org.apache.bcel.internal.generic.NEW;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import redis.clients.jedis.Jedis;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -113,6 +114,11 @@ public class MyServiceImpl implements MyService {
         for (News news : newsList) {
             Vo vo = new Vo();
             User user = userMapper.selectByPrimaryKey(news.getUserId());
+            //查询并设置点赞数目2018年9月24日 17:01:00
+            Jedis jedis = new Jedis();
+            Long likeCount = jedis.scard("newsLike" + news.getId());
+            news.setLikeCount(Integer.parseInt(likeCount+""));
+
             vo.setNews(news);
             vo.setUser(user);
             vos.add(vo);
