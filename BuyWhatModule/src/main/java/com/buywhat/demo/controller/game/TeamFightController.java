@@ -89,13 +89,15 @@ public class TeamFightController {
      * @param pmIds        Pm的id集合
      */
     private void initP1Pm(Model model, Integer playerNumber, Integer[] pmIds) {
+
+
         String[] pms = null;
         if (playerNumber == 1) {//准备初始化player1
-
             //Player1的三只Pm(位置代号,也是用于前端显示的Vo)
             pms = new String[]{"p1", "p2", "p3"};
+
         } else if (playerNumber == 2) {//准备初始化player2
-            //Player2的三只Pm(位置代号,也是用于前端显示的Vo)
+            //Player2的三只Pm(位置代号,也是用于前端显示的Vo`  X  )
             pms = new String[]{"p4", "p5", "p6"};
         }
 
