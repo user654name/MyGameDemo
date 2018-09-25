@@ -30,6 +30,14 @@ public class TeamFightController {
     Integer player2Hp;
 
 
+    /**
+     * 开发时临时方法
+     * 临时方法 为了不用进行游戏就可以【方便进入游戏结束界面】
+     *
+     * @param model   M
+     * @param session session
+     * @return 游戏结束页面
+     */
     @RequestMapping("gameover")
     public String toGameOverPage(Model model, HttpSession session) {
 
@@ -38,6 +46,14 @@ public class TeamFightController {
         return "gameover";
     }
 
+    /**
+     * 微游戏支付页面 目前没有介入支付宝API
+     * 【2018年9月25日 13:22:04】
+     *
+     * @param model   M
+     * @param session session
+     * @return 进行支付页面
+     */
     @RequestMapping("payForGame")
     public String toPayForGame(Model model, HttpSession session) {
 
@@ -47,8 +63,17 @@ public class TeamFightController {
     }
 
 
+    /**
+     * 【2018年9月25日 13:22:50】
+     * 设置游戏难度页面
+     *
+     * @param model
+     * @param session
+     * @return 应该跳转到游戏初始化方法中
+     */
     @RequestMapping("setDifficulty")
     public String setDifficulty(Model model, HttpSession session) {
+
 
 //        model.addAttribute("gameover", "你挂了,充钱立即复活");
 
@@ -56,29 +81,75 @@ public class TeamFightController {
     }
 
     /**
-     * 初始化战斗信息
+     * 【2018年9月25日 13:26:36】
+     * 根据游戏难度 初始化战斗信息
      * @param model
      * @param session
+     * @param difficulty 游戏难度代号
      * @return
      */
     @RequestMapping("teamfight")
     public String toTeamFight(Model model, HttpSession session,
                               Integer difficulty) {
-        //初始化HP
-        player1Hp = 100;
-        player2Hp = 100;
-        //将HP加入
-        model.addAttribute("player1Hp", player1Hp);
-        model.addAttribute("player2Hp", player2Hp);
+        //先创建玩家的PM信息
+        Integer[] initP2Pm;
+        Integer[] initP1Pm;
 
-        /* 初始化 创建敌我各三只PM信息
+
+        //初始化玩家1PM信息（通常不变）
+        initP1Pm = new Integer[]{1, 4, 7};
+        initP2Pm = new Integer[]{1, 4, 7};
+
+
+        //初始化玩家2PM信息（需要更改）
+        switch (difficulty) {
+            case 1://入门难度
+                break;
+            case 2://普通难度
+                break;
+            case 3://AI卡牌强度增加
+                break;
+            case 4://AI策略改善1
+                break;
+            case 5://AL策略改善2
+                break;
+            case 6://策略+强力增加
+                break;
+            default://难度代号都不匹配 默认的难度是普通
+                initP2Pm = new Integer[]{1, 4, 7};
+        }
+
+
+//        //初始化HP（目前这还是个成员变量）
+//        player1Hp = 100;
+//        player2Hp = 100;
+
+        //将HP加入model
+        setHp(model, 100, 100);
+
+
+        /* 初始化  创建敌我各三只PM信息
            playerNumber==1代表player1
            playerNumber==2代表player2 */
-        initP1Pm(model, 1, new Integer[]{1, 4, 7});
+        initP1Pm(model, 1, initP1Pm);
 
-        initP1Pm(model, 2, new Integer[]{1, 4, 7});
+        initP1Pm(model, 2, initP2Pm);
 
         return "teamFight";
+    }
+
+    /**
+     * 【2018年9月25日 13:35:41】
+     * 设置双方玩家主要HP值 目前只设置为100 不做改变
+     *
+     * @param model     M
+     * @param player1Hp 玩家1Hp
+     * @param player2Hp 玩家2Hp
+     */
+    private void setHp(Model model, Integer player1Hp, Integer player2Hp) {
+
+        model.addAttribute("player1Hp", player1Hp);
+        model.addAttribute("player2Hp", player2Hp);
     }
 
     /**
