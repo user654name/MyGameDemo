@@ -101,23 +101,28 @@ public class TeamFightController {
         initP2Pm = new Integer[]{1, 4, 7};
 
 
-        //初始化玩家2PM信息（需要更改）
-        switch (difficulty) {
-            case 1://入门难度
-                break;
-            case 2://普通难度
-                break;
-            case 3://AI卡牌强度增加
-                break;
-            case 4://AI策略改善1
-                break;
-            case 5://AL策略改善2
-                break;
-            case 6://策略+强力增加
-                break;
-            default://难度代号都不匹配 默认的难度是普通
-                initP2Pm = new Integer[]{1, 4, 7};
+        if (difficulty!=null&&difficulty+""!="") {
+            //初始化玩家2PM信息（需要更改）
+            switch (difficulty) {
+                case 1://入门难度
+                    break;
+                case 2://普通难度
+                    break;
+                case 3://AI卡牌强度增加
+                    break;
+                case 4://AI策略改善1
+                    break;
+                case 5://AL策略改善2
+                    break;
+                case 6://策略+强力增加
+                    break;
+                default://难度代号都不匹配 默认的难度是普通
+            }
+
         }
+
+        initP2Pm = new Integer[]{1, 4, 7};
+
 
 
 //        //初始化HP（目前这还是个成员变量）
