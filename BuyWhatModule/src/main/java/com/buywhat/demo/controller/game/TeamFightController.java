@@ -26,6 +26,7 @@ public class TeamFightController {
     @Autowired
     TeamGameRecordMapper recordMapper;
 
+    //暂时设置 之后要去掉
     Integer player1Hp;
     Integer player2Hp;
 
@@ -98,7 +99,7 @@ public class TeamFightController {
 
         //初始化玩家1PM信息（通常不变）
         initP1Pm = new Integer[]{1, 4, 7};
-        initP2Pm = new Integer[]{1, 4, 7};
+        initP2Pm = new Integer[]{1, 4, 7};//功能完成后注释这句
 
 
         if (difficulty!=null&&difficulty+""!="") {
@@ -112,7 +113,7 @@ public class TeamFightController {
                     break;
                 case 4://AI策略改善1
                     break;
-                case 5://AL策略改善2
+                case 5://Ai策略改善2
                     break;
                 case 6://策略+强力增加
                     break;
@@ -202,7 +203,7 @@ public class TeamFightController {
 
         //设置双方玩家的ID
         Integer player1Id;//玩家1ID
-        Integer player2Id = -2;//玩家2ID
+        Integer player2Id = -2;//玩家2ID【默认为PC普通难度 则=-2】
 
         //设置根据玩家1登录情况，读取信息
         if (player1 != null) {//若用户已经登录
@@ -215,7 +216,7 @@ public class TeamFightController {
         }
 
 
-        //生成随机数 模拟电脑的选择
+        //生成随机数 模拟电脑的选择【随机策略，很容易被合理对策击破】
         Integer comPmNum = (int) (1 + Math.random() * 3);
 
         //电脑选择战斗的PM的位置（1，2，3）
@@ -286,7 +287,7 @@ public class TeamFightController {
             return "gameover";
         }
 
-
+        //获取伤害信息
         HurtInfo p1HurtInfo = (HurtInfo) battleMap.get("p1HurtInfo");
         HurtInfo p2HurtInfo = (HurtInfo) battleMap.get("p2HurtInfo");
 
