@@ -9,9 +9,9 @@
     <bookmark url="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/MyServiceImpl.java" line="75" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89e54438-5bfc-4f71-a266-828621f62f1d" name="Default" comment="更新里设置游戏难度的部分代码 功能完成度（25%）&#10;修复了不能进入team界面的bug">
+    <list default="true" id="89e54438-5bfc-4f71-a266-828621f62f1d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java" />
+      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/IndexController.java" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/IndexController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/BuyWhatModule/target/" />
@@ -40,7 +40,7 @@
       <file leaf-file-name="CommentController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/CommentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="567">
               <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="method#addComment#0;class#CommentController#0" expanded="false" />
@@ -49,43 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="39" column="40" lean-forward="false" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LikeController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/LikeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/MyServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="845">
-              <caret line="198" column="42" lean-forward="false" selection-start-line="198" selection-start-column="42" selection-end-line="198" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeamFightController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="305">
+              <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -192,7 +160,6 @@
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/dao/Pokemon2Mapper.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/Pokemon2Mapper.xml" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/gameHeader.html" />
-        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamFightNoImg.html" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/Game/BattleInfo.java" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -235,6 +202,7 @@
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/NewsController.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/MyServiceImpl.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/IndexController.java" />
       </list>
     </option>
   </component>
@@ -278,6 +246,8 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -400,8 +370,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -735,7 +703,8 @@
       <workItem from="1537785955302" duration="2000" />
       <workItem from="1537847313450" duration="4251000" />
       <workItem from="1537923878514" duration="476000" />
-      <workItem from="1538014857746" duration="1163000" />
+      <workItem from="1538014857746" duration="2125000" />
+      <workItem from="1538126487249" duration="712000" />
     </task>
     <task id="LOCAL-00001" summary="yeah">
       <created>1537186385784</created>
@@ -1052,7 +1021,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537924353314</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="稍微修改注释信息">
+      <created>1538016050991</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1538016050991</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1088,7 +1064,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="367438000" />
+    <option name="totallyTimeSpent" value="369112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="251" y="-9" width="1678" height="1098" extended-state="6" />
@@ -1103,8 +1079,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.49759036" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.49759036" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1123,7 +1100,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951808" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1174,7 +1150,6 @@
     <ignored-roots>
       <path value="D:\Users\Administrator\0912BuyWhat\NewsWeb" />
     </ignored-roots>
-    <MESSAGE value="注释了team对战页面的ajax" />
     <MESSAGE value="更新了首页进入游戏的链接" />
     <MESSAGE value="使用逆向工程创建了游戏纪录的表格" />
     <MESSAGE value="1增加了战绩记录功能 现在每一场比赛 即使是未登录用户的比赛结果也会被记录下来&#10;2改善了3v3页面HP值和各个按钮的样式" />
@@ -1199,7 +1174,8 @@
     <MESSAGE value="首页显示点赞数已经搞定 啦啦啦 这下放心了" />
     <MESSAGE value="更新里设置游戏难度的部分代码 功能完成度（20%）" />
     <MESSAGE value="更新里设置游戏难度的部分代码 功能完成度（25%）&#10;修复了不能进入team界面的bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新里设置游戏难度的部分代码 功能完成度（25%）&#10;修复了不能进入team界面的bug" />
+    <MESSAGE value="稍微修改注释信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="稍微修改注释信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1476,7 +1452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1553,19 +1528,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/CommentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="567">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="method#addComment#0;class#CommentController#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="39" column="40" lean-forward="false" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1605,20 +1572,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="881" column="36" lean-forward="true" selection-start-line="881" selection-start-column="36" selection-end-line="881" selection-end-column="36" />
-          <folding>
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/LikeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="351">
           <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -32,6 +32,7 @@ public class IndexController {
         //处理session信息
         User user = (User) session.getAttribute("user");
         if (user != null) {
+
             model.addAttribute("user", user);
         }
 
