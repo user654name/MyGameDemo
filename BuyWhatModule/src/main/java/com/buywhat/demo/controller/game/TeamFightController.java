@@ -99,6 +99,7 @@ public class TeamFightController {
 
         //初始化玩家1PM信息（通常不变）
         initP1Pm = new Integer[]{1, 4, 7};
+
         initP2Pm = new Integer[]{1, 4, 7};//功能完成后注释这句
 
 
