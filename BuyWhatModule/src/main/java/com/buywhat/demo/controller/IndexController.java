@@ -20,7 +20,8 @@ public class IndexController {
 
 
     /**
-     * 对于index的访问 都转到home.html
+     * 对于index的访问 、
+     * 都转到home.html
      *
      * @param session
      * @param model
