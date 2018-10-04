@@ -4,8 +4,6 @@ import com.buywhat.demo.bean.game.Pokemon2;
 import com.buywhat.demo.bean.game.TeamGameRecord;
 import com.buywhat.demo.dao.Pokemon2Mapper;
 import com.buywhat.demo.dao.TeamGameRecordMapper;
-import com.sun.org.apache.bcel.internal.generic.NEW;
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -72,9 +70,5 @@ public class GameTest {
         System.out.println("insert = " + insert);
     }
 
-    @Test
-    public void test33() {
-        System.out.println( " 我喜欢拓明芬 哈哈 她是一头猪 2018年10月1日 00:18:46");
-    }
 
 }
