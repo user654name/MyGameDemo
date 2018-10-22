@@ -17,11 +17,11 @@
     <select id="selectConversationByUserId" parameterType="map" resultMap="BaseResultMap">
         SELECT   *    FROM
         (
-        SELECT   *    FROM    `messagetable`,
-        (
-            SELECT  max(created_date) AS `date`  FROM   messagetable  GROUP BY  conversation_id
-        ) AS maxdatetable
-        WHERE  messagetable.created_date = maxdatetable.date
+            SELECT   *    FROM    `messagetable`,
+              (
+                  SELECT  max(created_date) AS `date`  FROM   messagetable  GROUP BY  conversation_id
+                ) AS maxdatetable
+             WHERE  messagetable.created_date = maxdatetable.date
         ) AS resulttable
         WHERE
         resulttable.conversation_id LIKE #{before}  ESCAPE '|'
