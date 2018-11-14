@@ -241,7 +241,7 @@ public class TeamFightController {
 
         //计算玩家出战PM的位置
         Integer playerPmNum = 0;
-        playerPmNum = playerPmId > 3 ? (playerPmId > 6 ? 3 : 2) : 1;
+        playerPmNum = playerPmId > 3 ? (playerPmId > 6 ? 3 : 2) : 1;//这代码也太烂了
 
         //计算对战结果
         //计算这回合对战情况
