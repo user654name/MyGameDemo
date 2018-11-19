@@ -232,7 +232,7 @@ public class TeamFightController {
             case 3:
                 comPmId = battleInfo.getP6Id();
                 break;
-
+            default:
         }
 
         //玩家出战的PM

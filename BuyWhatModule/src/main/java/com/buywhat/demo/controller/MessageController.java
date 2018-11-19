@@ -109,7 +109,7 @@ public class MessageController {
             Integer fromId = sender.getId();
 
 
-            if (toId == fromId) {//自己给自己发站内信
+            if (toId.equals(fromId)) {//自己给自己发站内信
                 map.put("code", 1);
                 map.put("msg", "在我们这里，你不能发信给自己");
 

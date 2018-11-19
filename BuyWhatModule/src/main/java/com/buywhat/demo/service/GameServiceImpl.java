@@ -92,11 +92,11 @@ public class GameServiceImpl implements GameService {
         } else {//他们的精灵不同
             switch (playerType) {
                 case "G"://玩家是草属性
-                    if (comType.equals("F")) {
+                    if ("F".equals(comType)) {
                         //玩家【G草】电脑【F火】→【电脑赢】
                         winner = -1;
 
-                    } else if (comType.equals("W")) {
+                    } else if ("W".equals(comType)) {
                         //玩家【G草】电脑【W水】→【玩家赢】
                         winner = 1;
                     } else {
@@ -108,11 +108,11 @@ public class GameServiceImpl implements GameService {
                     break;
                 case "F":
 
-                    if (comType.equals("G")) {
+                    if ("G".equals(comType)) {
                         //玩家【F火】电脑【G草】→【玩家赢】
                         winner = 1;
 
-                    } else if (comType.equals("W")) {
+                    } else if ("W".equals(comType)) {
                         //玩家【F火】电脑【W水】→【电脑赢】
                         winner = -1;
 
@@ -125,11 +125,11 @@ public class GameServiceImpl implements GameService {
                     break;
                 case "W":
 
-                    if (comType.equals("G")) {
+                    if ("G".equals(comType)) {
                         //玩家【W水】电脑【G草】→【电脑赢】
                         winner = -1;
 
-                    } else if (comType.equals("F")) {
+                    } else if ("F".equals(comType)) {
                         //玩家【W水】电脑【F火】→【玩家赢】
                         winner = 1;
                     } else {
