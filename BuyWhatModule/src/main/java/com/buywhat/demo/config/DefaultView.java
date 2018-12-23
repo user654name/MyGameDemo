@@ -8,6 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 /**
  * 这个将对localhost/的访问 变为对 localhost/index.html 的访问
+ * @author Tianqi.Zhang
  */
 @Configuration
 public class DefaultView extends WebMvcConfigurerAdapter {

@@ -11,7 +11,7 @@ import java.util.Map;
 @Repository
 public interface MessageMapper {
     int deleteByPrimaryKey(Integer id);
-
+ 
     /**
      * 向表中插入新消息
      *

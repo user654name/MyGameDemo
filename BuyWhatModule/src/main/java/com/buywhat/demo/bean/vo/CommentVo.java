@@ -4,7 +4,9 @@ import com.buywhat.demo.bean.Comment;
 import com.buywhat.demo.bean.User;
 
 public class CommentVo {
+
     User user;
+
     Comment comment;
 
     public User getUser() {
