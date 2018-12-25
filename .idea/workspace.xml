@@ -12,12 +12,8 @@
     <bookmark url="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/MyServiceImpl.java" line="75" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89e54438-5bfc-4f71-a266-828621f62f1d" name="Default" comment="">
+    <list default="true" id="89e54438-5bfc-4f71-a266-828621f62f1d" name="Default" comment="2018年12月23日 12:05:14 查看一下代码以前写的真烂啊">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/MessageController.java" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/MessageController.java" />
-      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java" />
-      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/GameServiceImpl.java" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/GameServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/BuyWhatModule/src/main/resources/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/BuyWhatModule/target/" />
@@ -43,103 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/application.yml">
+      <file leaf-file-name="DemoApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/DemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeamFightController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="232" column="33" lean-forward="false" selection-start-line="232" selection-start-column="33" selection-end-line="232" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CookieHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/utils/CookieHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/CommentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/config/DefaultView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/MessageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="111" column="34" lean-forward="false" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/NewsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/GameServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="131" column="46" lean-forward="false" selection-start-line="131" selection-start-column="46" selection-end-line="131" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebMvcConfigurerAdapter.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.6.RELEASE/spring-webmvc-4.2.6.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -160,9 +64,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>p1HurtInfo</find>
-      <find>GOOD!</find>
-      <find>对战</find>
       <find>border-radius:15px;</find>
       <find>progress-bar</find>
       <find>progress-bar-</find>
@@ -190,6 +91,9 @@
       <find>application</find>
       <find>selectConversationByUserId</find>
       <find>templates</find>
+      <find>showTop</find>
+      <find>/msg/detail</find>
+      <find>login</find>
     </findStrings>
     <replaceStrings>
       <replace>User</replace>
@@ -218,8 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/dao/Pokemon2Mapper.java" />
-        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/Pokemon2Mapper.xml" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/gameHeader.html" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamFightNoImg.html" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/Game/BattleInfo.java" />
@@ -260,15 +162,17 @@
         <option value="$PROJECT_DIR$/BuyWhatModule/src/test/java/com/buywhat/demo/GameTest.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/DemoApplication.java" />
-        <option value="$PROJECT_DIR$/BuyWhatModule/pom.xml" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/MessageMapper.xml" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/LikeController.java" />
-        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/config/DefaultView.java" />
-        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/MessageController.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/NewsController.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/GameServiceImpl.java" />
         <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/config/DefaultView.java" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/dao/MessageMapper.java" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/vo/CommentVo.java" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/pom.xml" />
+        <option value="$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/MessageController.java" />
       </list>
     </option>
   </component>
@@ -287,8 +191,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="255" />
-    <option name="y" value="-9" />
+    <option name="x" value="116" />
+    <option name="y" value="8" />
     <option name="width" value="807" />
     <option name="height" value="688" />
   </component>
@@ -310,6 +214,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -320,86 +226,7 @@
             <path>
               <item name="0912BuyWhat" type="b2602c69:ProjectViewProjectNode" />
               <item name="BuyWhatModule" type="462c0819:PsiDirectoryNode" />
-              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0912BuyWhat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuyWhatModule" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0912BuyWhat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuyWhatModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0912BuyWhat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuyWhatModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0912BuyWhat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuyWhatModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0912BuyWhat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuyWhatModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="buywhat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0912BuyWhat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuyWhatModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="buywhat" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0912BuyWhat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuyWhatModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="buywhat" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0912BuyWhat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuyWhatModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0912BuyWhat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuyWhatModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0912BuyWhat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuyWhatModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="0912BuyWhat" type="b2602c69:ProjectViewProjectNode" />
@@ -440,19 +267,22 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="buywhat" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="0912BuyWhat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuyWhatModule" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -473,9 +303,12 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="0912buywhat" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.buywhat.demo.service" />
-      <recent name="com.buywhat.demo.bean" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources\templates\pay" />
+      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources\templates\test" />
+      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources\static" />
+      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources" />
+      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources\templates\teamgame" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.buywhat.demo" />
@@ -495,12 +328,9 @@
       <recent name="com.buywhat.demo.bean" />
       <recent name="com.buywhat.demo.bean.Game" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources\templates\pay" />
-      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources\templates\test" />
-      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources\static" />
-      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources" />
-      <recent name="D:\Users\Administrator\0912BuyWhat\BuyWhatModule\src\main\resources\templates\teamgame" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.buywhat.demo.service" />
+      <recent name="com.buywhat.demo.bean" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -933,21 +763,24 @@
       <workItem from="1542610028732" duration="2857000" />
       <workItem from="1542614511261" duration="391000" />
       <workItem from="1542614930661" duration="1345000" />
-      <workItem from="1542616990861" duration="1452000" />
-    </task>
-    <task id="LOCAL-00008" summary="3对3团战的页面，更新一下">
-      <created>1537273396467</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1537273396467</updated>
-    </task>
-    <task id="LOCAL-00009" summary="3对3团战的页面基本写好">
-      <created>1537274904148</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1537274904148</updated>
+      <workItem from="1542616990861" duration="1560000" />
+      <workItem from="1542953082206" duration="1042000" />
+      <workItem from="1543151566735" duration="1240000" />
+      <workItem from="1543191951963" duration="420000" />
+      <workItem from="1543192487895" duration="231000" />
+      <workItem from="1543194635797" duration="6449000" />
+      <workItem from="1543389565133" duration="30000" />
+      <workItem from="1543412519880" duration="1215000" />
+      <workItem from="1543416072788" duration="2025000" />
+      <workItem from="1543505539797" duration="2591000" />
+      <workItem from="1543570388942" duration="12000" />
+      <workItem from="1544352055601" duration="2753000" />
+      <workItem from="1544364599166" duration="972000" />
+      <workItem from="1545356852914" duration="731000" />
+      <workItem from="1545377582291" duration="1271000" />
+      <workItem from="1545535625045" duration="1525000" />
+      <workItem from="1545614328428" duration="1291000" />
+      <workItem from="1545749681156" duration="44000" />
     </task>
     <task id="LOCAL-00010" summary="3对3团战的页面第一个版本完成 太累了 弄了一晚上 没写作业都">
       <created>1537283555566</created>
@@ -1278,7 +1111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542200036961</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="2018年11月19日 17:12:51 根据阿里规范修改部分问题">
+      <created>1542618795521</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1542618795522</updated>
+    </task>
+    <task id="LOCAL-00058" summary="2018年12月23日 12:05:14 查看一下代码以前写的真烂啊">
+      <created>1545537952644</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1545537952644</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1314,33 +1161,31 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="425415000" />
+    <option name="totallyTimeSpent" value="449365000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="196" y="-9" width="1733" height="1098" extended-state="6" />
-    <editor active="true" />
+    <frame x="167" y="-9" width="1762" height="1098" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25026178" sideWeight="0.50240964" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.061780106" sideWeight="0.49759036" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25235602" sideWeight="0.49759036" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29633507" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2712042" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29633507" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24664722" sideWeight="0.66621983" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25573394" sideWeight="0.66621983" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1350,6 +1195,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951808" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -1401,8 +1247,6 @@
     <ignored-roots>
       <path value="D:\Users\Administrator\0912BuyWhat\NewsWeb" />
     </ignored-roots>
-    <MESSAGE value="优化了3v3初始化的代码（为即将推出功能【难度选择】做准备）" />
-    <MESSAGE value="阿雪帮着优化了一下前端页面显示  现在的3V3按钮已经是圆角的了" />
     <MESSAGE value="条件BootStrap资源 更新3v3进度条样式 修复前端显示错乱的小问题" />
     <MESSAGE value="添加BootStrap资源 更新3v3进度条样式 修复前端显示错乱的小问题" />
     <MESSAGE value="【功能】已经可以显示战绩（胜场）总排行啦" />
@@ -1426,7 +1270,9 @@
     <MESSAGE value="2018年10月5日 07:52:26" />
     <MESSAGE value="2018年10月22日 14:33:01 优化" />
     <MESSAGE value="2018年11月14日 20:53:39 回看一下我的游戏！" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018年11月14日 20:53:39 回看一下我的游戏！" />
+    <MESSAGE value="2018年11月19日 17:12:51 根据阿里规范修改部分问题" />
+    <MESSAGE value="2018年12月23日 12:05:14 查看一下代码以前写的真烂啊" />
+    <option name="LAST_COMMIT_MESSAGE" value="2018年12月23日 12:05:14 查看一下代码以前写的真烂啊" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1441,7 +1287,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/config/DefaultView.java</url>
-          <line>13</line>
+          <line>14</line>
           <properties />
           <option name="timeStamp" value="122" />
         </line-breakpoint>
@@ -1451,243 +1297,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/test/java/com/buywhat/demo/NewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/test/java/com/buywhat/demo/RedisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/News.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/ResponseMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/GameService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/game/TeamGameRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding>
-            <element signature="method#personalPage#0;class#UserController#0" expanded="false" />
-            <element signature="docComment;method#changeHeadImg#0;class#UserController#0" expanded="false" />
-            <element signature="method#changeHeadImg#0;class#UserController#0" expanded="false" />
-            <element signature="docComment;method#loginModel#0;class#UserController#0" expanded="false" />
-            <element signature="e#2963#2987#0" expanded="false" />
-            <element signature="method#loginModel#0;class#UserController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.6.RELEASE/spring-webmvc-4.2.6.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="469" column="24" lean-forward="true" selection-start-line="469" selection-start-column="24" selection-end-line="469" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.6.RELEASE/spring-webmvc-4.2.6.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="403" column="0" lean-forward="false" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.6.RELEASE/spring-web-4.2.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="881" column="36" lean-forward="true" selection-start-line="881" selection-start-column="36" selection-end-line="881" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/dao/CommentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/game/Pokemon2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/dao/Pokemon2Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/test/java/com/buywhat/demo/GameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0912buywhat.xml" />
-    <entry file="file://$PROJECT_DIR$/0912buywhat.properties" />
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/module_buywhatmodule.xml" />
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/TeamGameRecordMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/Pokemon2Mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/CommentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/dao/MessageMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/dao/NewsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/datetool.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/LikeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="48" column="33" lean-forward="false" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/.mvn/wrapper/maven-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2727">
-          <caret line="107" column="25" lean-forward="false" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/MyServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6480">
-          <caret line="263" column="77" lean-forward="false" selection-start-line="263" selection-start-column="77" selection-end-line="263" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/MessageMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1706,7 +1315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1714,24 +1322,256 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.6.RELEASE/spring-webmvc-4.2.6.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4968">
+          <caret line="198" column="18" lean-forward="false" selection-start-line="198" selection-start-column="18" selection-end-line="198" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/news.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/GameServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="51" column="15" lean-forward="false" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/GameService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.3.5.RELEASE/spring-boot-1.3.5.RELEASE.jar!/org/springframework/boot/test/SpringApplicationConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/test/java/com/buywhat/demo/NewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/test/java/com/buywhat/demo/DemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/test/java/com/buywhat/demo/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/test/java/com/buywhat/demo/RedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/mails/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/mails/Top10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/teamFightShowInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="91" lean-forward="false" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/dao/CommentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/com/buywhat/demo/dao/CommentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/gameResult.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/dao/MessageMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/DemoApplication.java">
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/BattleRecordController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="324">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/pom.xml">
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="50" column="3" lean-forward="false" selection-start-line="50" selection-start-column="3" selection-end-line="54" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/ResponseMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/News.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/config/DefaultView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/vo/MessageVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/vo/ConversationVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/vo/CommentVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/game/Pokemon2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/game/Pokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/game/HurtInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/game/BattleInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/vo/Vo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/bean/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1744,76 +1584,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/CommentController.java">
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/LikeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="513">
+          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="784">
+          <caret line="113" column="20" lean-forward="false" selection-start-line="113" selection-start-column="15" selection-end-line="113" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="1621">
+          <caret line="62" column="56" lean-forward="true" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.6.RELEASE/spring-webmvc-4.2.6.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.class">
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="27">
+          <caret line="70" column="61" lean-forward="false" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/config/DefaultView.java">
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/logintop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/MessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="111" column="34" lean-forward="false" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/NewsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state relative-caret-position="594">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/service/GameServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/resources/templates/letter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="131" column="46" lean-forward="false" selection-start-line="131" selection-start-column="46" selection-end-line="131" selection-end-column="46" />
+        <state relative-caret-position="540">
+          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/game/TeamFightController.java">
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="232" column="33" lean-forward="false" selection-start-line="232" selection-start-column="33" selection-end-line="232" selection-end-column="33" />
+        <state relative-caret-position="812">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/controller/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuyWhatModule/src/main/java/com/buywhat/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
