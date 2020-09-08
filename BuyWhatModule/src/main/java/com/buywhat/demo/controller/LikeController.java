@@ -24,7 +24,7 @@ public class LikeController {
     public Map addLike(String newsId, HttpSession session) {
         //将UserId 放入newsId的集合中
         User user = (User) session.getAttribute("user");
-
+        //
         Map map = new HashMap();
 
         if (user != null) {//用户处于正常登录状态

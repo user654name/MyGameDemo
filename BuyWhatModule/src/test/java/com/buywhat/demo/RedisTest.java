@@ -14,10 +14,8 @@ public class RedisTest {
 
     @Test
     public void testRedis1() {
-
         Jedis jedis = new Jedis();
         Long sadd = jedis.sadd("    1","1");
         System.out.println("sadd = " + sadd);
-
     }
 }

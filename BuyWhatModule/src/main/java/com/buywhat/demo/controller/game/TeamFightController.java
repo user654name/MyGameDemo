@@ -1,5 +1,6 @@
 package com.buywhat.demo.controller.game;
 
+import antlr.StringUtils;
 import com.buywhat.demo.bean.User;
 import com.buywhat.demo.bean.game.BattleInfo;
 import com.buywhat.demo.bean.game.HurtInfo;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpSession;
 import java.util.Map;
+import java.util.Objects;
 
 @Controller
 public class TeamFightController {
@@ -103,7 +105,7 @@ public class TeamFightController {
         initP2Pm = new Integer[]{1, 4, 7};//功能完成后注释这句
 
 
-        if (difficulty!=null&&difficulty+""!="") {
+        if (Objects.nonNull(difficulty) && difficulty + "" != "") {
             //初始化玩家2PM信息（需要更改）
             switch (difficulty) {
                 case 1://入门难度
